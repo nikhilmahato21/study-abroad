@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      colors: {
+        flyBlue: "#4C4AD5", 
+        baseGrey:"#EFEFEF"
+      },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],

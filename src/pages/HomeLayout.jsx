@@ -1,12 +1,14 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const HomeLayout = () => {
   return (
     <>
-      <nav>
-        <span className="text-3xl">navbar</span>{" "}
-      </nav>
+      <Navbar/>
+      <section className="align-element py-20">
       <Outlet />
+      </section>
+      
     </>
   );
 };

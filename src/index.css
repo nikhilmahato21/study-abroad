@@ -4,9 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.fly-base{
-    color: #4C4AD5;
-}
-.fly-bgcolor{
-    background-color: #4C4AD5;
+@layer components {
+    .align-element {
+        @apply mx-auto max-w-6xl px-3 sm:px-4
+    }
 }
