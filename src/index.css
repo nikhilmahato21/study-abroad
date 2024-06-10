@@ -6,6 +6,19 @@
 
 @layer components {
     .align-element {
-        @apply mx-auto max-w-6xl px-3 sm:px-4
+        @apply mx-auto  px-7
     }
 }
+.nav-link {
+    display: inline-flex; /* Use flexbox for better alignment */
+    
+    position: relative; /* Needed for absolute positioning of the icon */
+  }
+  
+  .nav-link.active .active-icon {
+    display: block; /* Ensure icon visibility */
+    position: absolute;
+    top: 0.5rem; /* Adjust position as needed */
+    right: 0.5rem; /* Adjust position as needed */
+   
+  }
