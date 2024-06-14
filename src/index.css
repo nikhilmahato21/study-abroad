@@ -22,3 +22,13 @@
     right: 0.5rem; /* Adjust position as needed */
    
   }
+  @keyframes revolve {
+    
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+    }

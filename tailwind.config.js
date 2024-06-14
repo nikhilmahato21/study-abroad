@@ -7,8 +7,18 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
-        flyBlue: "#4C4AD5", 
-        baseGrey:"#EFEFEF"
+        flyBlue: "#4C4AD5",
+        baseGrey: "#EFEFEF",
+        heroBlue: "#A3A3FD",
+      },
+      keyframes: {
+        revolve: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
+      animation: {
+        revolve: 'revolve 12s linear infinite',
       },
     },
   },
