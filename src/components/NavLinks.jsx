@@ -28,7 +28,7 @@ const NavLinks = () => {
               {text}
               {isActive && (
                 
-                  <PiFlyingSaucer className="text-stone-500 sm:hidden lg:block " />
+                  <PiFlyingSaucer className="text-stone-500 hidden lg:block " />
                
               )}
             </NavLink>
