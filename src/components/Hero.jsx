@@ -4,7 +4,7 @@ import Argentina from "../assets/Argentina.png";
 
 const Hero = () => {
   return (
-    <div className="grid lg:grid-cols-2  gap-20 items-center bg-baseGrey  lg:h-screen">
+    <div className="grid lg:grid-cols-2  gap-20 items-center bg-baseGrey  lg:h-screen  overflow-x-hidden">
       <div className="align-element ">
         <div>
           <h1 className="max-w-xl text-4xl font-semibold tracking-wide font-poppins text-stone-700 sm:text-[3rem] leading-[3.4rem] ">
@@ -25,13 +25,13 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      <div className=" flex  items-center justify-center  relative  ">
+      <div className=" flex  items-center justify-center  relative  scale-75 md:scale-100 ">
         <img
           src={hero}
           alt="Centered Image"
-          className="center-img absolute z-10 h-64 w-64 rounded-full "
+          className="center-img absolute z-10 h-64 w-64 rounded-full  "
         />
-        <div className="container  scale-75 lg:scale-100 w-96 h-96 border border-stone-600 rounded-full flex justify-center items-center   animate-revolve  ">
+        <div className="container   w-96 h-96 border border-stone-600 rounded-full flex justify-center items-center   animate-revolve  ">
           <div className="box relative  w-full h-full -left-[50%] flex justify-center items-center cursor-pointer">
             <div className="circle h-14 w-14  bg-heroBlue rounded-full absolute  transform rotate-[36deg] origin-[217px] flex items-center justify-center">
               <img
