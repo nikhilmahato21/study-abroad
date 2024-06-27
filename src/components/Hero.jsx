@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import hero from "../assets/hero-banner.png";
-import Argentina from "../assets/Argentina.png";
+import Italy from "../assets/italy.png";
+import Germany from "../assets/germany.png";
+import UK from "../assets/uk.png";
+import France from "../assets/france.png";
+import Poland from "../assets/poland.png";
 
 const Hero = () => {
   return (
@@ -35,35 +39,35 @@ const Hero = () => {
           <div className="box relative  w-full h-full -left-[50%] flex justify-center items-center cursor-pointer">
             <div className="circle h-14 w-14  bg-heroBlue rounded-full absolute  transform rotate-[36deg] origin-[217px] flex items-center justify-center">
               <img
-                src={Argentina}
+                src={France}
                 className="transform rotate-[-36deg] h-8 w-8 "
               />
             </div>
             <div className="sm h-6 w-6  bg-flyBlue rounded-full absolute  transform rotate-[72deg] origin-[203px]"></div>
             <div className=" h-14 w-14  bg-heroBlue rounded-full absolute  transform rotate-[108deg] origin-[217px] flex items-center justify-center">
               <img
-                src={Argentina}
+                src={Italy}
                 className="transform rotate-[-108deg] h-8 w-8 "
               />
             </div>
             <div className="sm-circle h-6 w-6  bg-flyBlue rounded-full absolute  transform rotate-[144deg] origin-[203px]"></div>
             <div className="circle h-14 w-14  bg-heroBlue rounded-full absolute  transform rotate-[180deg] origin-[217px] flex items-center justify-center">
               <img
-                src={Argentina}
+                src={Germany}
                 className="transform rotate-[-180deg] h-8 w-8 "
               />
             </div>
             <div className="sm-circle h-6 w-6  bg-flyBlue rounded-full absolute  transform rotate-[216deg] origin-[203px]"></div>
             <div className="circle h-14 w-14  bg-heroBlue rounded-full absolute  transform rotate-[252deg] origin-[217px] flex items-center justify-center">
               <img
-                src={Argentina}
+                src={UK}
                 className="transform rotate-[-252deg] h-8 w-8 "
               />
             </div>
             <div className="sm-circle h-6 w-6  bg-flyBlue rounded-full absolute  transform rotate-[288deg] origin-[203px]"></div>
             <div className="circle h-14 w-14  bg-heroBlue rounded-full absolute  transform rotate-[324deg] origin-[217px] flex items-center justify-center">
               <img
-                src={Argentina}
+                src={Poland}
                 className="transform rotate-[-324deg] h-8 w-8 "
               />
             </div>

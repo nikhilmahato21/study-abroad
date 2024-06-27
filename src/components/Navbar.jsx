@@ -6,9 +6,9 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
   return (
     <nav className="bg-baseGrey  ">
-      <div className="navbar align-element ">
-        <div className="navbar-start">
-          <NavLink to="/" className="hidden lg:flex  text-3xl items-center ">
+      <div className="navbar align-element  ">
+        <div className="navbar-start ">
+          <NavLink to="/" className="hidden lg:flex  text-3xl items-center  ">
             Logo
           </NavLink>
           {/* DROPDOWN */}
@@ -24,17 +24,12 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="navbar-end hidden lg:flex">
+        <div className="navbar-end hidden lg:flex ">
           <ul className="flex gap-6 text-sm font-normal tracking-wide  ">
             {" "}
             <NavLinks />
           </ul>
         </div>
-        {/* <div className="navbar-end">
-          <NavLink to="/" className="flex lg:hidden  text-3xl items-center ">
-            Logo
-          </NavLink>
-        </div> */}
       </div>
     </nav>
   );
