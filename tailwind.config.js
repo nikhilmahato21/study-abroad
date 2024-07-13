@@ -10,15 +10,19 @@ export default {
         flyBlue: "#4C4AD5",
         baseGrey: "#EFEFEF",
         heroBlue: "#A3A3FD",
+        graphite:  "#454545"
+      },
+      spacing: {
+        64: "16rem", // Add a custom spacing value for the image height
       },
       keyframes: {
         revolve: {
-          '0%': { transform: 'rotate(0deg)' },
-          '100%': { transform: 'rotate(360deg)' },
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
         },
       },
       animation: {
-        revolve: 'revolve 12s linear infinite',
+        revolve: "revolve 12s linear infinite",
       },
     },
   },
