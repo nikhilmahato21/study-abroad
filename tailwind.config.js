@@ -10,7 +10,11 @@ export default {
         flyBlue: "#4C4AD5",
         baseGrey: "#EFEFEF",
         heroBlue: "#A3A3FD",
-        graphite:  "#454545"
+        graphite:  "#454545",
+        circleSky:"#E5E5FF",
+        circlePurple:"#EFE4FF",
+        circlePink:"#FFDEE5",
+
       },
       spacing: {
         64: "16rem", // Add a custom spacing value for the image height
