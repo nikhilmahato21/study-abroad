@@ -3,6 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
+.slick-slide > div {
+    margin: 0 10px;
+}
 
 @layer components {
     .align-element {
@@ -10,16 +18,16 @@
     }
 }
 .nav-link {
-    display: inline-flex; /* Use flexbox for better alignment */
+    display: inline-flex; 
     
-    position: relative; /* Needed for absolute positioning of the icon */
+    position: relative; 
   }
   
   .nav-link.active .active-icon {
-    display: block; /* Ensure icon visibility */
+    display: block;
     position: absolute;
-    top: 0.5rem; /* Adjust position as needed */
-    right: 0.5rem; /* Adjust position as needed */
+    top: 0.5rem; 
+    right: 0.5rem; 
    
   }
   @keyframes revolve {

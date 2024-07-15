@@ -30,7 +30,7 @@ const process = [
 const Process = () => {
   return (
     <div className="container mx-auto px-4 py-16 md:p-16 ">
-      <h1 className="text-3xl font-bold font-poppins mb-4">
+      <h1 className="text-3xl font-bold font-poppins mb-4 ">
         Your <span className=" text-flyBlue">Journey</span> Starts Here
       </h1>
       <p className="text-graphite text-lg font-poppins max-w-80 mb-4">
@@ -46,8 +46,12 @@ const Process = () => {
                 <img src={process.icon} alt="" className="w-10" />
               </div>
 
-              <h3 className="text-xl font-bold mb-2 font-poppins">{process.title}</h3>
-              <p className="text-graphite font-poppins">{process.description}</p>
+              <h3 className="text-xl font-bold mb-2 font-poppins">
+                {process.title}
+              </h3>
+              <p className="text-graphite font-poppins">
+                {process.description}
+              </p>
             </div>
           );
         })}
