@@ -502,11 +502,11 @@ const Destinations = () => {
       <div className="max-w-6xl w-full   rounded-lg overflow-hidden">
         <div className="flex justify-around py-4 mb-10 md:px-40  ">
           {destinations.map((destination) => (
-            <div className="text-center   hover:scale-125   ">
+            <div className="text-center hover:scale-125    transition-all duration-500   ">
               <img
                 src={destination.image}
                 alt="Italy"
-                className="w-12 h-12 md:w-16  md:h-16 mx-auto   rounded-full hover:border-4 hover:border-zinc-300 hover:shadow-xl "
+                className="w-12 h-12 md:w-16  md:h-16 mx-auto   rounded-full hover:border-4 hover:border-zinc-200 hover:shadow-lg "
               />
               <p className="mt-2 capitalize font-poppins tracking-wide text-graphite">{destination.name}</p>
             </div>
