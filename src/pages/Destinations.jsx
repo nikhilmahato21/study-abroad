@@ -500,15 +500,15 @@ const Destinations = () => {
   return (
     <div className="min-h-screen bg-baseGrey flex flex-col items-center p-6">
       <div className="max-w-6xl w-full   rounded-lg overflow-hidden">
-        <div className="flex justify-around py-4 md:px-40 ">
+        <div className="flex justify-around py-4 mb-10 md:px-40  ">
           {destinations.map((destination) => (
-            <div className="text-center hover:scale-125   ">
+            <div className="text-center   hover:scale-125   ">
               <img
                 src={destination.image}
                 alt="Italy"
-                className="w-12 h-12 md:w-16  md:h-16 mx-auto rounded-full hover:shadow-xl "
+                className="w-12 h-12 md:w-16  md:h-16 mx-auto   rounded-full hover:border-4 hover:border-zinc-300 hover:shadow-xl "
               />
-              <p className="mt-2 capitalize">{destination.name}</p>
+              <p className="mt-2 capitalize font-poppins tracking-wide text-graphite">{destination.name}</p>
             </div>
           ))}
         </div>
@@ -542,9 +542,7 @@ const Destinations = () => {
                 <div className="collapse-content">
                   <ul>
                     {section.points.map((point) => (
-                      <li className="font-poppins">
-                        {point}
-                      </li>
+                      <li className="font-poppins">{point}</li>
                     ))}
                   </ul>
                 </div>
