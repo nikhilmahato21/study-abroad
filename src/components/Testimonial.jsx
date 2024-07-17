@@ -57,10 +57,10 @@ const Testimonial = ({ name, university, quote, image }) => (
         </div>
       </div>
     </div>
-    <p className="text-lg font-semibold">{quote}</p>
-    <div>
-      <h3 className="font-bold">{name}</h3>
-      <p className="text-sm text-gray-500">{university}</p>
+    <p className="text-lg font-medium text-graphite font-poppins">{quote}</p>
+    <div className=" border-l-2 border-flyBlue pl-3">
+      <h3 className=" font-bold font-poppins text-flyBlue">{name}</h3>
+      <p className="text-sm text-gray-500 font-poppins">{university}</p>
     </div>
   </div>
 );
@@ -71,6 +71,8 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 3,
   arrows: false,
+  swipe: true,
+  touchMove: true,
   responsive: [
     {
       breakpoint: 1024,
@@ -92,8 +94,8 @@ const settings = {
 };
 const Testimonials = () => (
   <section className=" px-8  py-16 lg:px-40 bg-baseGrey">
-    <h2 className=" pl-5 text-2xl md:text-3xl font-bold text-left mb-8">
-      What Our Students Say
+    <h2 className=" pl-5 text-2xl md:text-3xl font-bold text-left mb-8 font-poppins">
+      What Our <span className="text-flyBlue">Students</span>  Say
     </h2>
     <div className=" ">
       <Slider {...settings}>
