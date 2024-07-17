@@ -542,7 +542,7 @@ const Destinations = () => {
                 <div className="collapse-content">
                   <ul>
                     {section.points.map((point) => (
-                      <li className="font-poppins">{point}</li>
+                      <li className="font-poppins"> <span className="font-bold">{point.split(": ")[0]} : </span>{point.split(": ")[1]}</li>
                     ))}
                   </ul>
                 </div>

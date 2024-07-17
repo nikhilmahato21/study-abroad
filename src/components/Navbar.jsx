@@ -24,7 +24,8 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="navbar-end hidden lg:flex ">
+        {/* navbar end */}
+        <div className=" hidden lg:flex ">
           <ul className="flex gap-6 text-sm font-normal tracking-wide  ">
             {" "}
             <NavLinks />
