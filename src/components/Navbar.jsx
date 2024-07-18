@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <nav className="bg-baseGrey  ">
+    <nav className="bg-baseGrey border-b-1 ">
       <div className="navbar px-7  ">
         <div className="navbar-start bg-purple-400 ">
           <NavLink to="/" className="hidden lg:flex  text-3xl items-center  ">
