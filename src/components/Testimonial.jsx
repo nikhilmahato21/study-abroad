@@ -97,7 +97,7 @@ const Testimonials = () => (
     <h2 className=" pl-5 text-2xl md:text-3xl font-bold text-left mb-8 font-poppins">
       What Our <span className="text-flyBlue">Students</span>  Say
     </h2>
-    <div className=" ">
+    <div className=" py-7">
       <Slider {...settings}>
         {testimonials.map((testimonial) => (
           <Testimonial

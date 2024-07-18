@@ -9,7 +9,7 @@ import Poland from "../assets/poland.png";
 const Hero = () => {
   return (
     <div className="grid lg:grid-cols-2  gap-20 items-center bg-baseGrey  lg:h-screen  overflow-x-hidden overflow-y-hidden">
-      <div className="align-element ">
+      <div className="align-element pt-7 ">
         <div>
           <h1 className="max-w-xl text-4xl font-semibold tracking-wide font-poppins text-stone-700 sm:text-[3rem] leading-[3.4rem] ">
             Transform Your Future with a World-Class Education{" "}
@@ -29,7 +29,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      <div className=" flex  items-center justify-center  relative  scale-75 md:scale-100 ">
+      <div className=" flex  items-center justify-center  relative  scale-75 md:scale-100 pb-12 lg:pb-0 ">
         <img
           src={hero}
           alt="Centered Image"

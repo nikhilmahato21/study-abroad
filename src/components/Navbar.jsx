@@ -6,8 +6,8 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
   return (
     <nav className="bg-baseGrey  ">
-      <div className="navbar align-element  ">
-        <div className="navbar-start ">
+      <div className="navbar px-7  ">
+        <div className="navbar-start bg-purple-400 ">
           <NavLink to="/" className="hidden lg:flex  text-3xl items-center  ">
             Logo
           </NavLink>
@@ -25,9 +25,8 @@ const Navbar = () => {
           </div>
         </div>
         {/* navbar end */}
-        <div className=" hidden lg:flex ">
-          <ul className="flex gap-6 text-sm font-normal tracking-wide  ">
-            {" "}
+        <div className="hidden lg:flex bg-green-400 flex-grow justify-end">
+          <ul className="flex gap-6 text-sm font-normal tracking-wide">
             <NavLinks />
           </ul>
         </div>

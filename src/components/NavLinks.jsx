@@ -2,6 +2,7 @@ import { PiFlyingSaucer } from "react-icons/pi";
 import { NavLink, useLocation } from "react-router-dom";
 
 const links = [
+  { id: 1, url: "/", text: "home" },
   { id: 2, url: "/about", text: "about" },
   { id: 3, url: "/destinations", text: "destinations" },
   { id: 4, url: "/services", text: "services" },
@@ -20,16 +21,14 @@ const NavLinks = () => {
         return (
           <li key={id} className="">
             <NavLink
-              className={`nav-link capitalize font-poppins px-3 ${
+              className={`nav-link capitalize font-poppins tracking-wider text-graphite px-2 ${
                 isActive ? "active" : ""
               }`}
               to={url}
             >
               {text}
               {isActive && (
-                
-                  <PiFlyingSaucer className="text-stone-500 hidden lg:block " />
-               
+                <PiFlyingSaucer className="text-stone-500 hidden lg:block " />
               )}
             </NavLink>
           </li>
