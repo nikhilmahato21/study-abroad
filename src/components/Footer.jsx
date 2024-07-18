@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center">
           {/* Logo and Social Media Icons */}
           <div className="flex flex-col items-center lg:items-start mb-6 lg:mb-0">
-            <h1 className="text-3xl font-bold mb-4">LOGO</h1>
+            <h1 className="text-3xl font-bold mb-4">Destiny Euro</h1>
             <div className="flex space-x-4 text-gray-600">
               <FaFacebookF className="h-6 w-6" />
               <FaTwitter className="h-6 w-6" />
@@ -57,7 +57,7 @@ const Footer = () => {
               <FaEnvelope className="h-6 w-6 mr-2" />
               <span className="font-poppins text-sm tracking-wide font-medium text-graphite">Stay up to date on the latest from company</span>
             </div>
-            <form className="flex flex-col w-full">
+            <form className="flex flex-col items-center lg:items-start w-full">
               <input
                 type="email"
                 placeholder="Enter your email address"
