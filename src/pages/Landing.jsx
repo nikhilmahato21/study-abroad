@@ -5,6 +5,7 @@ import Connect from "../components/Connect";
 import Services from "../components/Services";
 import Process from "../components/Process";
 import Testimonial from "../components/Testimonial";
+import Partners from "../components/Partners";
 
 const Landing = () => {
   return (
@@ -14,6 +15,7 @@ const Landing = () => {
       <Services />
       <Process />
       <Testimonial />
+      <Partners/>
     </div>
   );
 };
