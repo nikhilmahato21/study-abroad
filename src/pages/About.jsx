@@ -16,7 +16,7 @@ const About = () => {
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <div className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
               <p className="text-gray-600 mb-6 text-lg tracking-wide font-poppins">
-                At Destiny Euro, we believe that studying abroad is more than an
+                 <span className="text-2xl">At Destiny Euro,</span> we believe that studying abroad is more than an
                 educational opportunity; it's a transformative journey that
                 shapes futures and creates global citizens. Founded by{" "}
                 <span className="font-bold tracking-wide text-flyBlue ">
@@ -48,7 +48,7 @@ const About = () => {
             </div>
             <div className="lg:w-1/2 flex  justify-center ">
               <img
-                src="https://via.placeholder.com/500x300"
+                src="https://res.cloudinary.com/dynbpb9u0/image/upload/v1721844553/pexels-bertellifotografia-2608517_lz9xw9.jpg"
                 alt="About us"
                 className="rounded-lg shadow-lg"
               />
