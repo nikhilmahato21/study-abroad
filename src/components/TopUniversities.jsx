@@ -1,56 +1,51 @@
-import React from "react";
-const universities = [
-  {
-    name: "Harvard University",
-    image:
-      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1721904401/destiny-euro/italy-images/University_of_Bologna_u4dfs4.jpg",
-  },
-  {
-    name: "Stanford University",
-    image: "https://via.placeholder.com/300x200?text=Stanford+University",
-  },
-  {
-    name: "MIT",
-    image: "https://via.placeholder.com/300x200?text=MIT",
-  },
-  {
-    name: "University of Cambridge",
-    image: "https://via.placeholder.com/300x200?text=University+of+Cambridge",
-  },
-  {
-    name: "University of Oxford",
-    image: "https://via.placeholder.com/300x200?text=University+of+Oxford",
-  },
-  {
-    name: "University of California, Berkeley",
-    image: "https://via.placeholder.com/300x200?text=UC+Berkeley",
-  },
-];
-const TopUniversities = () => {
+import React, { useState } from "react";
+import { LiaUniversitySolid } from "react-icons/lia";
+
+const TopUniversities = ({ universities }) => {
+  const [uniLength, setUniLength] = useState(6);
+
   return (
-    <div className="min-h-screen  flex flex-col items-center p-6">
-      <div className="max-w-6xl w-full   rounded-lg overflow-hidden">
-        <div className="container mx-auto px-4 py-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {universities.map((university, index) => (
+    <div className=" flex flex-col items-center p-6">
+      <div className="max-w-6xl w-full   rounded-lg overflow-hidden ">
+        <div className="container mx-auto px-4 py-8 ">
+          <h1 className="text-center p-4 text-4xl font-poppins font-bold text-graphite mb-4 ">
+            {universities.title}
+          </h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-3">
+            {universities.points.slice(0, uniLength).map((point, index) => (
               <div key={index} className="relative group">
                 <img
-                  src={university.image}
-                  alt={university.name}
+                  src={
+                    "https://res.cloudinary.com/dynbpb9u0/image/upload/v1721904401/destiny-euro/italy-images/University_of_Bologna_u4dfs4.jpg"
+                  }
+                  alt={point.split(": ")[0]}
                   className="w-full h-48 object-cover rounded-lg shadow-lg"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center py-2 rounded-b-lg">
                   <h1 className="text-xl font-bold font-poppins">
-                    {university.name}
+                    {point.split(": ")[0]}
                   </h1>
-                  <p className="font-poppins hidden group-hover:block transition-opacity duration-900">
-                    Offers unique programs in economics, languages, and
-                    international relations.
+                  <p className="font-poppins hidden group-hover:block transition-all duration-900">
+                    {point.split(": ")[1]}
                   </p>
                 </div>
               </div>
             ))}
           </div>
+
+          {universities.points.length > 3 && (
+            <div className="flex items-center justify-center ">
+              <button
+                className="border border-black rounded-full p-4  my-auto font-poppins font-semibold"
+                onClick={() => setUniLength(universities.points.length)}
+              >
+                show more{" "}
+                <span>
+                  <LiaUniversitySolid className="inline my-auto " size={20} />{" "}
+                </span>{" "}
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
