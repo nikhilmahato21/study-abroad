@@ -4,6 +4,7 @@ import Germany from "../assets/germany-des.jpg";
 import France from "../assets/france-des.png";
 import UK from "../assets/uk-des.jpg";
 import Poland from "../assets/poland-des.jpg";
+import TopUniversities from "../components/TopUniversities";
 
 const destinations = [
   {
@@ -13,13 +14,15 @@ const destinations = [
     subheading: "Discover the Heart of Culture, Art, and Academic Excellence",
     image:
       "https://images.pexels.com/photos/2748019/pexels-photo-2748019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    loc_image:
+      "https://images.pexels.com/photos/2422259/pexels-photo-2422259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     introduction:
       "Italy, a country renowned for its rich cultural heritage, historical significance, and academic prowess, is an ideal destination for international students. With a blend of world-class universities, vibrant student life, and unparalleled artistic and culinary experiences, studying in Italy is a dream come true.",
     sections: [
       {
         title: "Why Study in Italy?",
         points: [
-          "Cultural Richness: Immerse yourself in Italy's unparalleled art, history, and culture.",
+          "Cultural Richness:  Immerse yourself in Italy's unparalleled art, history, and culture.",
           "Academic Excellence: Home to some of the oldest and most prestigious universities in the world.",
           "Beautiful Landscapes: From the Alps in the north to the Mediterranean coastlines in the south, Italy's natural beauty is breathtaking.",
           "Affordable Education: Tuition fees and living costs are relatively lower compared to other European countries.",
@@ -48,28 +51,7 @@ const destinations = [
           "University of Florence: Famous for arts and humanities.",
         ],
       },
-      {
-        title: "Admission Process",
-        points: [
-          "Application Requirements: Typically include academic transcripts, a statement of purpose, letters of recommendation, and proof of language proficiency.",
-          "Entrance Exams: Some programs may require entrance exams such as IMAT for medical courses.",
-          "Application Deadlines: Vary by university and program, usually between November and April for autumn intake.",
-        ],
-      },
-      {
-        title: "Visa and Documentation",
-        points: [
-          "Student Visa (Type D): Required for non-EU students; involves proving financial stability, health insurance, and admission to an Italian university.",
-          "Documentation Required: Valid passport, admission letter, proof of accommodation, financial proof, health insurance, and visa application form.",
-        ],
-      },
-      {
-        title: "Cost of Living and Tuition Fees",
-        points: [
-          "Tuition Fees: Ranges from €850 to €4,000 per year for public universities.",
-          "Living Costs: Approximately €700 to €1,200 per month, depending on the city.",
-        ],
-      },
+
       {
         title: "Scholarships and Financial Aid",
         points: [
@@ -86,14 +68,7 @@ const destinations = [
           "Cuisine: Indulge in world-famous Italian cuisine, from pasta and pizza to gelato.",
         ],
       },
-      {
-        title: "Job Prospects and Internships",
-        points: [
-          "Part-Time Jobs: Students can work part-time during their studies.",
-          "Post-Study Opportunities: Italy offers a “Stay Back” option for international graduates to find employment.",
-          "Industry Connections: Strong ties with industries, particularly in fashion, design, and engineering sectors.",
-        ],
-      },
+
       {
         title: "Exploring Italy",
         points: [
@@ -110,6 +85,8 @@ const destinations = [
     heading: "Study in Germany",
     subheading: "Innovative Education in the Heart of Europe",
     image: Germany,
+    loc_image:
+      "https://images.pexels.com/photos/4213372/pexels-photo-4213372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     introduction:
       "Germany, known for its advanced technological landscape and high-quality education system, offers a perfect blend of tradition and innovation. With a strong focus on research and development, Germany is an excellent choice for students seeking cutting-edge education and diverse cultural experiences.",
     sections: [
@@ -145,28 +122,7 @@ const destinations = [
           "University of Stuttgart: Renowned for engineering and technology programs.",
         ],
       },
-      {
-        title: "Admission Process",
-        points: [
-          "Application Requirements: Academic transcripts, proof of language proficiency (German or English), a statement of purpose, and letters of recommendation.",
-          "Entrance Exams: Some programs may require specific entrance tests such as TestAS.",
-          "Application Deadlines: Typically around July 15 for the winter semester and January 15 for the summer semester.",
-        ],
-      },
-      {
-        title: "Visa and Documentation",
-        points: [
-          "Student Visa: Required for non-EU students; includes proof of financial resources, health insurance, and admission letter.",
-          "Required Documents: Valid passport, visa application form, proof of financial stability, health insurance, and admission confirmation.",
-        ],
-      },
-      {
-        title: "Cost of Living and Tuition Fees",
-        points: [
-          "Tuition Fees: Generally free for undergraduate programs at public universities, with a small administrative fee.",
-          "Living Costs: Approximately €850 to €1,200 per month, including accommodation, food, and transportation.",
-        ],
-      },
+
       {
         title: "Scholarships and Financial Aid",
         points: [
@@ -183,14 +139,7 @@ const destinations = [
           "Cuisine: Savor traditional German dishes like pretzels, sausages, and schnitzel.",
         ],
       },
-      {
-        title: "Job Prospects and Internships",
-        points: [
-          "Part-Time Work: Opportunities to work part-time during studies to gain practical experience.",
-          "Post-Study Visa: Germany allows international graduates to stay for 18 months to seek employment.",
-          "Industry Connections: Strong ties with leading industries, particularly in engineering, automotive, and technology sectors.",
-        ],
-      },
+
       {
         title: "Exploring Germany",
         points: [
@@ -207,6 +156,8 @@ const destinations = [
     heading: "Study in France",
     subheading: "Experience Excellence in France: A Blend of Art and Science",
     image: France,
+    loc_image:
+      "https://images.pexels.com/photos/2738173/pexels-photo-2738173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     introduction:
       "France offers an exceptional educational experience, combining academic rigor with cultural richness. It is a top choice for students seeking a diverse and inclusive environment.",
     sections: [
@@ -258,6 +209,8 @@ const destinations = [
     heading: "Study in uk",
     subheading: "Achieve Greatness in the UK: A Legacy of Learning",
     image: UK,
+    loc_image:
+      "https://images.pexels.com/photos/258117/pexels-photo-258117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     introduction:
       "The UK is home to some of the world's most prestigious universities, offering a rich academic tradition and innovative research opportunities.",
     sections: [
@@ -311,6 +264,8 @@ const destinations = [
     heading: "Study in poland",
     subheading: "Discover Poland: A Hub of Innovation and Tradition",
     image: Poland,
+    loc_image:
+      "https://images.pexels.com/photos/46273/pexels-photo-46273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     introduction:
       "Poland is emerging as a popular destination for international students, offering high-quality education at affordable costs.",
     sections: [
@@ -370,69 +325,80 @@ const Destinations = () => {
   const destination = destinationSelect[0];
 
   return (
-    <div className="min-h-screen bg-baseGrey flex flex-col items-center p-6">
-      <div className="max-w-6xl w-full   rounded-lg overflow-hidden">
-        <div className="flex justify-around py-4 mb-10 md:px-40  ">
-          {destinations.map((destination) => (
-            <div
-              className="text-center hover:scale-125    transition-all duration-500   "
-              onClick={() => setCountry(destination.name)}
-            >
-              <img
-                src={destination.image}
-                alt="Italy"
-                className="w-12 h-12 md:w-16  md:h-16 mx-auto object-cover  rounded-full hover:border-4 hover:border-zinc-200 hover:shadow-lg "
-              />
-              <p className="mt-2 capitalize font-poppins tracking-wide text-graphite">
-                {destination.name}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        <div className="p-6  grid grid-cols-1 ">
-          <div
-            className="relative  bg-cover bg-center rounded-xl overflow-hidden  h-96 object-center"
-            style={{ backgroundImage: `url(${destination.image})` }}
-          >
-            <div className="absolute inset-0 bg-black opacity-50"></div>
-            <div className="relative flex items-center justify-center h-full">
-              <div className="text-center text-white px-6 md:px-12 lg:px-24">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                  {destination.heading}
-                </h1>
-                <p className="text-lg md:text-xl lg:text-2xl mb-6">
-                  {destination.subheading}
+    <>
+      <div className="min-h-screen bg-baseGrey flex flex-col items-center p-6">
+        <div className="max-w-6xl w-full   rounded-lg overflow-hidden">
+          <div className="flex justify-around py-4 mb-10 md:px-40  ">
+            {/* highlight section */}
+            {destinations.map((destination) => (
+              <div
+                className="text-center hover:scale-125    transition-all duration-500   "
+                onClick={() => setCountry(destination.name)}
+              >
+                <img
+                  src={destination.image}
+                  alt="Italy"
+                  className="w-12 h-12 md:w-16  md:h-16 mx-auto object-cover  rounded-full hover:border-4 hover:border-zinc-200 hover:shadow-lg "
+                />
+                <p className="mt-2 capitalize font-poppins tracking-wide text-graphite">
+                  {destination.name}
                 </p>
-              </div>
-            </div>
-          </div>
-
-          <div className=" flex flex-col items-center justify-center">
-            {destination.sections.map((section) => (
-              <div className="collapse collapse-plus bg-base-400 border-t-[3px] border-gray-300 rounded-none ">
-                <input type="radio" name="my-accordion-3" defaultChecked />
-                <div className="collapse-title text-xl font-medium  font-poppins tracking-wide">
-                  {section.title}
-                </div>
-                <div className="collapse-content">
-                  <ul>
-                    {section.points.map((point) => (
-                      <li className="font-poppins">
-                        {" "}
-                        <span className="font-bold">
-                          {point.split(": ")[0]} :{" "}
-                        </span>
-                        {point.split(": ")[1]}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
               </div>
             ))}
           </div>
-        </div>
-        <div className="mt-6 p-6  grid grid-cols-1 md:grid-cols-2 gap-10 ">
+
+          <div className="p-6  grid grid-cols-1 ">
+            <div
+              className="relative  bg-cover bg-center rounded-xl overflow-hidden  h-96 object-center"
+              style={{ backgroundImage: `url(${destination.image})` }}
+            >
+              <div className="absolute inset-0 bg-black opacity-50"></div>
+              <div className="relative flex items-center justify-center h-full">
+                <div className="text-center text-white px-6 md:px-12 lg:px-24">
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-poppins">
+                    {destination.heading}
+                  </h1>
+                  <p className="text-lg md:text-xl lg:text-2xl mb-6 font-poppins">
+                    {destination.subheading}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center justify-center gap-3  p-8">
+              <div className="md:w-1/2 ">
+                <h2 className="text-3xl font-bold mb-4 font-poppins">
+                  {destination.sections[0].title}
+                </h2>
+                <p className="text-gray-600 mb-4 font-poppins">
+                  {destination.introduction}
+                </p>
+                <div className="mb-4">
+                  {destination.sections[0].points.map((point) => (
+                    <div className="flex items-center mb-2 ">
+                      
+                      <div>
+                        <h3 className="font-bold font-poppins text-lg">
+                          {point.split(": ")[0]}
+                        </h3>
+                        <p className="text-gray-600 font-poppins">
+                          {point.split(": ")[1]}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="md:w-1/2   bg-cyan-300 h-4/5 overflow-hidden rounded-lg">
+                <img
+                  src={destination.loc_image}
+                  alt="Adventure"
+                  className="w-full h-full  rounded-lg shadow-lg   object-cover object-center"
+                />
+              </div>
+            </div>
+          </div>
+          {/* <div className="mt-6 p-6  grid grid-cols-1 md:grid-cols-2 gap-10 ">
           <div className="  ">
             <p className=" font-poppins md:max-w-96  ">
               {destination.call_to_action}
@@ -443,9 +409,18 @@ const Destinations = () => {
               Apply Now
             </button>
           </div>
+        </div> */}
         </div>
       </div>
-    </div>
+      {/* top universities */}
+      <TopUniversities />
+      {/* education system */}
+      <div className="min-h-screen  bg-baseGrey flex flex-col items-center p-6">
+        <div className="max-w-6xl w-full   rounded-lg overflow-hidden">
+          <div className="p-6  grid grid-cols-1 ">education system section</div>
+        </div>
+      </div>
+    </>
   );
 };
 

@@ -9,7 +9,7 @@ const servicesList = [
     subheading: "Guiding Your Future, One Step at a Time",
     introduction:
       "At Destiny Euro, we understand that choosing the right career path can be daunting. Our personalized career counseling services are designed to help you navigate your educational and professional journey with confidence.",
-    imageUrl: "https://via.placeholder.com/300x200",
+    imageUrl: "https://images.pexels.com/photos/4065158/pexels-photo-4065158.jpeg",
     sections: [
       {
         title: "Why Career Counseling?",

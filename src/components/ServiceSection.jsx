@@ -25,7 +25,7 @@ const ServiceSection = ({ service }) => {
             <img
               src={service.imageUrl}
               alt={service.service}
-              className=" w-96 h-64 object-cover mb-6 "
+              className=" w-96 h-96 rounded-md object-cover object-center mb-6 "
             />
             <p className="mb-6 max-w-96 font-poppins">{service.introduction}</p>
           </div>
