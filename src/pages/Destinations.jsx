@@ -11,7 +11,8 @@ const destinations = [
     heading: "Study in Italy",
 
     subheading: "Discover the Heart of Culture, Art, and Academic Excellence",
-    image: Italy,
+    image:
+      "https://images.pexels.com/photos/2748019/pexels-photo-2748019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     introduction:
       "Italy, a country renowned for its rich cultural heritage, historical significance, and academic prowess, is an ideal destination for international students. With a blend of world-class universities, vibrant student life, and unparalleled artistic and culinary experiences, studying in Italy is a dream come true.",
     sections: [
@@ -361,7 +362,7 @@ const destinations = [
 ];
 
 const Destinations = () => {
-  const [country, setCountry] = useState("uk");
+  const [country, setCountry] = useState("italy");
 
   const destinationSelect = destinations.filter(
     (destination) => destination.name === country
@@ -389,23 +390,22 @@ const Destinations = () => {
           ))}
         </div>
 
-        <div className="p-6  grid grid-cols-1 md:grid-cols-2">
-          <div>
-            {" "}
-            <h1 className="text-4xl font-light font-poppins tracking-wide mb-4">
-              {destination?.heading}
-            </h1>
-            <p className="mb-6 font-poppins text-graphite">
-              {destination?.subheading}
-            </p>
-            <img
-              src={destination.image}
-              alt="Italy Campus"
-              className=" w-96 h-64 object-cover mb-6 "
-            />
-            <p className="mb-6 max-w-96 font-poppins">
-              {destination.introduction}
-            </p>
+        <div className="p-6  grid grid-cols-1 ">
+          <div
+            className="relative  bg-cover bg-center rounded-xl overflow-hidden  h-96 object-center"
+            style={{ backgroundImage: `url(${destination.image})` }}
+          >
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+            <div className="relative flex items-center justify-center h-full">
+              <div className="text-center text-white px-6 md:px-12 lg:px-24">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                  {destination.heading}
+                </h1>
+                <p className="text-lg md:text-xl lg:text-2xl mb-6">
+                  {destination.subheading}
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className=" flex flex-col items-center justify-center">
