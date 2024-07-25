@@ -39,12 +39,12 @@ const destinations = [
       {
         title: "Top Universities in Italy",
         points: [
-          "University of Bologna: Established in 1088, it's the oldest university in the world.",
-          "Sapienza University of Rome: Known for its research excellence and diverse academic offerings.",
-          "Politecnico di Milano: Top-ranked for engineering, architecture, and design.",
-          "University of Padua: Famous for its pioneering research and academic traditions.",
-          "University of Milan: Offers a wide range of programs and has a vibrant student life.",
-          "Scuola Normale Superiore di Pisa: Renowned for its high academic standards.",
+          "University of Bologna: Established in 1088, it's the oldest university in the world.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721904401/destiny-euro/italy-images/University_of_Bologna_u4dfs4.jpg",
+          "Sapienza University of Rome: Known for its research excellence and diverse academic offerings.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721929260/destiny-euro/italy-images/sapienza%20university%20of%20rome.jpg",
+          "Politecnico di Milano: Top-ranked for engineering, architecture, and design.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721929710/destiny-euro/italy-images/csm_01_Hero_Politecnico_1920_vs9_6d87e15009_pgi1tq.jpg",
+          "University of Padua: Famous for its pioneering research and academic traditions.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721929963/destiny-euro/italy-images/Padua_201_fujsu1.jpg",
+          "University of Milan: Offers a wide range of programs and has a vibrant student life.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721930089/destiny-euro/italy-images/University%20of%20Milan.jpg",
+          "Scuola Normale Superiore di Pisa: Renowned for its high academic standards.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721930377/destiny-euro/italy-images/scuola%20normale%20superiore%20di%20pisa.jpg",
           "University of Pisa: Known for its strong emphasis on science and technology.",
           "Politecnico di Torino: Excellent for engineering and technical studies.",
           "Ca' Foscari University of Venice: Offers unique programs in economics, languages, and international relations.",
@@ -376,7 +376,6 @@ const Destinations = () => {
                 <div className="mb-4">
                   {destination.sections[0].points.map((point) => (
                     <div className="flex items-center mb-2 ">
-                      
                       <div>
                         <h3 className="font-bold font-poppins text-lg">
                           {point.split(": ")[0]}

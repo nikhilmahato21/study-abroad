@@ -11,12 +11,12 @@ const TopUniversities = ({ universities }) => {
           <h1 className="text-center p-4 text-4xl font-poppins font-bold text-graphite mb-4 ">
             {universities.title}
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
             {universities.points.slice(0, uniLength).map((point, index) => (
-              <div key={index} className="relative group">
+              <div key={index} className="relative group ">
                 <img
                   src={
-                    "https://res.cloudinary.com/dynbpb9u0/image/upload/v1721904401/destiny-euro/italy-images/University_of_Bologna_u4dfs4.jpg"
+                   point.split("#")[1]
                   }
                   alt={point.split(": ")[0]}
                   className="w-full h-48 object-cover rounded-lg shadow-lg"
@@ -26,7 +26,7 @@ const TopUniversities = ({ universities }) => {
                     {point.split(": ")[0]}
                   </h1>
                   <p className="font-poppins hidden group-hover:block transition-all duration-900">
-                    {point.split(": ")[1]}
+                    {point.split(": ")[1].split("#")[0]}
                   </p>
                 </div>
               </div>
@@ -35,15 +35,27 @@ const TopUniversities = ({ universities }) => {
 
           {universities.points.length > 3 && (
             <div className="flex items-center justify-center ">
-              <button
-                className="border border-black rounded-full p-4  my-auto font-poppins font-semibold"
-                onClick={() => setUniLength(universities.points.length)}
-              >
-                show more{" "}
-                <span>
-                  <LiaUniversitySolid className="inline my-auto " size={20} />{" "}
-                </span>{" "}
-              </button>
+              {uniLength > 6 ? (
+                <button
+                  className="border border-black rounded-full p-4  my-auto font-poppins font-semibold"
+                  onClick={() => setUniLength(6)}
+                >
+                  show less
+                  <span>
+                    <LiaUniversitySolid className="inline my-auto " size={20} />{" "}
+                  </span>{" "}
+                </button>
+              ) : (
+                <button
+                  className="border border-black rounded-full p-4  my-auto font-poppins font-semibold"
+                  onClick={() => setUniLength(universities.points.length)}
+                >
+                  show more
+                  <span>
+                    <LiaUniversitySolid className="inline my-auto " size={20} />{" "}
+                  </span>{" "}
+                </button>
+              )}
             </div>
           )}
         </div>
