@@ -38,7 +38,7 @@ const AboutSection = () => {
             <h3 className="text-2xl font-semibold text-graphite font-poppins tracking-wide mb-4">
               Our Mission
             </h3>
-            <p className="text-gray-500 leading-relaxed font-poppins">
+            <p className="text-gray-500 leading-7 font-poppins">
               Our mission is to make your study abroad journey smooth and
               successful. We provide personalized consultancy services to help
               you navigate the complexities of studying in a foreign country.
@@ -46,7 +46,7 @@ const AboutSection = () => {
               ensure you have the support and guidance needed to thrive.
             </p>
           </div>
-          <div className="lg:w-1/2 flex justify-center">
+          <div className="lg:w-1/2 lg:h-4/5 flex justify-center">
             <img
               src="https://res.cloudinary.com/dynbpb9u0/image/upload/v1721844553/pexels-bertellifotografia-2608517_lz9xw9.jpg"
               alt="About us"
