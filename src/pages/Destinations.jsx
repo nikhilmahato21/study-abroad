@@ -45,10 +45,10 @@ const destinations = [
           "University of Padua: Famous for its pioneering research and academic traditions.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721929963/destiny-euro/italy-images/Padua_201_fujsu1.jpg",
           "University of Milan: Offers a wide range of programs and has a vibrant student life.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721930089/destiny-euro/italy-images/University%20of%20Milan.jpg",
           "Scuola Normale Superiore di Pisa: Renowned for its high academic standards.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721930377/destiny-euro/italy-images/scuola%20normale%20superiore%20di%20pisa.jpg",
-          "University of Pisa: Known for its strong emphasis on science and technology.",
-          "Politecnico di Torino: Excellent for engineering and technical studies.",
-          "Ca' Foscari University of Venice: Offers unique programs in economics, languages, and international relations.",
-          "University of Florence: Famous for arts and humanities.",
+          "University of Pisa: Known for its strong emphasis on science and technology.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721930903/destiny-euro/italy-images/pisa-_C3_BCniversitesi-pavaedu-7853-1024x721_bnmxpk.jpg",
+          "Politecnico di Torino: Excellent for engineering and technical studies.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721974361/destiny-euro/italy-images/Politecnico%20di%20Torino.jpg",
+          "Ca' Foscari University of Venice: Offers unique programs in economics, languages, and international relations.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721974909/destiny-euro/italy-images/ca%27%20foscari%20university%20of%20venice.jpg",
+          "University of Florence: Famous for arts and humanities.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1721975104/destiny-euro/italy-images/University%20of%20Florence.jpg",
         ],
       },
 
@@ -66,6 +66,12 @@ const destinations = [
           "Vibrant Student Communities: Engage in various student organizations and cultural activities.",
           "Festivals and Events: Enjoy numerous festivals, from Venice Carnival to Milan Fashion Week.",
           "Cuisine: Indulge in world-famous Italian cuisine, from pasta and pizza to gelato.",
+        ],
+      },
+      {
+        title: "Popular Courses in Italy",
+        points: [
+          "Popular Courses: Design, Architecture, Culinary Arts, and Economics.",
         ],
       },
 
@@ -139,6 +145,12 @@ const destinations = [
           "Cuisine: Savor traditional German dishes like pretzels, sausages, and schnitzel.",
         ],
       },
+      {
+        title: "Popular Courses in Germany",
+        points: [
+          "Popular Courses: Engineering, Computer Science, Business Administration, and Natural Sciences.",
+        ],
+      },
 
       {
         title: "Exploring Germany",
@@ -180,6 +192,15 @@ const destinations = [
           "Sorbonne University: A historic institution known for humanities.",
           "École Normale Supérieure (ENS): A leading school for science and humanities.",
           "HEC Paris: Top-ranked business school.",
+        ],
+      },
+      {
+        title: "Scholarships and Financial Aid",
+        points: [
+          "Eiffel Excellence Scholarship Program: Offered by the French Ministry for Europe and Foreign Affairs for international students.",
+          "Université Paris-Saclay International Master's Scholarships: Scholarships for international students enrolling in master’s programs at Université Paris-Saclay.",
+          "École Normale Supérieure (ENS) International Selection: Scholarships for international students to study at ENS in Paris or Lyon.",
+          "Region-Specific Scholarships: Various regional councils in France provide scholarships for students studying in their area.",
         ],
       },
 
@@ -235,6 +256,15 @@ const destinations = [
           "Imperial College London: Leading in science, engineering, and business.",
         ],
       },
+      {
+        title: "Scholarships and Financial Aid",
+        points: [
+          "Chevening Scholarships: Offered by the UK government for international students.",
+          "Commonwealth Scholarships: For students from Commonwealth countries.",
+          "GREAT Scholarships: Funded by the UK government and British universities for international students.",
+          "University-Specific Scholarships: Various UK universities provide scholarships based on merit and need.",
+        ],
+      },
 
       {
         title: "Student Life and Culture",
@@ -288,6 +318,15 @@ const destinations = [
           "University of Warsaw: Leading in humanities and social sciences.",
           "Jagiellonian University: One of the oldest universities in Europe.",
           "Warsaw University of Technology: Known for engineering and technology.",
+        ],
+      },
+      {
+        title: "Scholarships and Financial Aid",
+        points: [
+          "Poland Government Scholarship: Offered by the Polish National Agency for Academic Exchange (NAWA) for international students.",
+          "University Scholarships: Various Polish universities provide scholarships based on merit and need.",
+          "Erasmus+ Program: EU-funded scholarships for international students studying in Poland.",
+          "Ignacy Łukasiewicz Scholarship Program: For students from developing countries pursuing higher education in Poland.",
         ],
       },
 
@@ -347,7 +386,7 @@ const Destinations = () => {
             ))}
           </div>
 
-          <div className="p-6  grid grid-cols-1 ">
+          <div className="md:p-6  grid grid-cols-1 ">
             <div
               className="relative  bg-cover bg-center rounded-xl overflow-hidden  h-96 object-center"
               style={{ backgroundImage: `url(${destination.image})` }}
@@ -365,7 +404,7 @@ const Destinations = () => {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center justify-center gap-3  p-8">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-3  py-8 px-1 md:p-8">
               <div className="md:w-1/2 ">
                 <h2 className="text-3xl font-bold mb-4 font-poppins">
                   {destination.sections[0].title}

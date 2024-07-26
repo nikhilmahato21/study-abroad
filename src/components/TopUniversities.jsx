@@ -15,9 +15,7 @@ const TopUniversities = ({ universities }) => {
             {universities.points.slice(0, uniLength).map((point, index) => (
               <div key={index} className="relative group ">
                 <img
-                  src={
-                   point.split("#")[1]
-                  }
+                  src={point.split("#")[1]}
                   alt={point.split(": ")[0]}
                   className="w-full h-48 object-cover rounded-lg shadow-lg"
                 />
@@ -37,7 +35,7 @@ const TopUniversities = ({ universities }) => {
             <div className="flex items-center justify-center ">
               {uniLength > 6 ? (
                 <button
-                  className="border border-black rounded-full p-4  my-auto font-poppins font-semibold"
+                  className="border border-black rounded-full p-4  my-auto font-poppins font-semibold  hover:border-gray-600 hover:text-gray-600 hover:shadow-md transition-all duration-500"
                   onClick={() => setUniLength(6)}
                 >
                   show less
@@ -47,7 +45,7 @@ const TopUniversities = ({ universities }) => {
                 </button>
               ) : (
                 <button
-                  className="border border-black rounded-full p-4  my-auto font-poppins font-semibold"
+                  className="border border-black rounded-full p-4  my-auto font-poppins font-semibold hover:border-gray-600 hover:text-gray-600  hover:shadow-md  transition-all duration-500"
                   onClick={() => setUniLength(universities.points.length)}
                 >
                   show more
