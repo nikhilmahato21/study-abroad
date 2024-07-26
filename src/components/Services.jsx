@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import S1 from "../assets/service-1.png";
 import S2 from "../assets/service-2.png";
 import S3 from "../assets/service-3.png";
 import S4 from "../assets/service-4.png";
-import { FaLongArrowAltRight } from "react-icons/fa";
-import ServiceCard from "./ServiceCard";
+import Play from "../assets/play.png";
+import Pause from "../assets/pause.png";
+
+
 
 const services = [
   {
@@ -33,28 +35,57 @@ const services = [
 ];
 
 const Services = () => {
-  const [isopen, setIsOpen] = useState(true);
+  const videoRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handlePlayPause = () => {
+    if (isPlaying) {
+      videoRef.current.pause();
+    } else {
+      videoRef.current.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
   return (
-    <section className="bg-baseGrey p-4 md:p-16  ">
-      <div className="container mx-auto px-4">
-        <div className=" mb-16 md:flex ">
-          <div className="md:w-1/2 ">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">
-              OUR SERVICES
-            </h2>
-            <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-gray-800 font-poppins">
-              Your Career Deserves <br /> the Best Quality.
-            </h1>
-          </div>
-          <div className="md:w-1/2   flex  justify-center items-center py-2">
-            <p className=" text-xl md:max-w-82 font-poppins text-graphite">
-              Discover Our Comprehensive Services Designed to Ensure Your
-              Success Abroad
-            </p>
+    <section className="bg-baseGrey p-4 md:px-16  ">
+      <div className="flex flex-col md:flex-row items-center justify-between p-8 md:gap-10 ">
+        <div className="w-full md:w-1/2 md:pr-8">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl p-4 font-bold text-gray-800 font-poppins">
+            Your Career Deserves <br /> the Best Quality.
+          </h1>
+          <p className=" text-xl md:max-w-82 p-4 font-poppins text-graphite">
+            Discover Our Comprehensive Services Designed to Ensure Your Success
+            Abroad
+          </p>
+          <div className="relative w-full h-auto" onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}>
+          <video ref={videoRef} className="w-full h-auto rounded-2xl">
+            <source src="https://res.cloudinary.com/dynbpb9u0/video/upload/v1721977724/destiny-euro/5439078-uhd_3840_2160_25fps_caun5m.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div
+            className={`absolute inset-0 flex items-center justify-center cursor-pointer   ${isPlaying && !isHovered ? 'hidden' : 'flex'}`}
+            onClick={handlePlayPause}
+          >
+          <div className="bg-gray-200 opacity-45 rounded-full p-1">
+          <img
+              src={isPlaying ? Pause : Play}
+              alt={isPlaying ? 'Pause' : 'Play'}
+              className="w-12 h-12"
+            /> </div>
+            
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-         { services.map((service,index)=> <ServiceCard key={index} index={index} service={service}/> )}
+        </div>
+        <div className="w-full md:w-1/2  mt-6 py-12 md:mt-12 grid grid-cols-1 md:grid-cols-2 gap-4">
+          {services.map((service) => (
+            <div className="p-4 bg-white  rounded-xl hover:border-graphite hover:border-2">
+              <img src={service.icon} alt="" className="h-10" />
+              <h3 className="text-xl font-bold mb-2 font-poppins"> {service.heading}</h3>
+              <p className="text-gray-600 font-poppins">{service.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

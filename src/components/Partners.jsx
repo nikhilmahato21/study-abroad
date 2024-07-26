@@ -3,7 +3,7 @@ import React from "react";
 const Partners = () => {
   return (
     <div className="flex flex-col md:flex-row items-center p-8 bg-white rounded-2xl shadow-lg">
-      <div className="w-full md:w-1/2 p-4 flex justify-center">
+      <div className="w-full md:w-1/2 p-4 flex flex-col justify-center">
         <div className="relative w-full h-80">
           <img
             src="https://res.cloudinary.com/dynbpb9u0/image/upload/v1721843456/pexels-pixabay-159740_cgcs8n.jpg"

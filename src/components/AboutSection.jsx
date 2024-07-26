@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="py-16 bg-baseGrey px-12">
+    <section className="py-16 bg-baseGrey md:px-12">
       <div className="container mx-auto px-6 py-12">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-semibold text-zinc-800 font-poppins tracking-wide">
@@ -15,7 +15,7 @@ const AboutSection = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between lg:space-x-8">
           <div className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
             <p className="text-gray-600 mb-6 text-lg tracking-wide font-poppins leading-relaxed">
-              <span className="text-2xl">At Destiny Euro,</span> we believe that
+              <span className="">At Destiny Euro,</span> we believe that
               studying abroad is more than an educational opportunity; it's a
               transformative journey that shapes futures and creates global
               citizens. Founded by{" "}

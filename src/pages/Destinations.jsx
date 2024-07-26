@@ -436,18 +436,7 @@ const Destinations = () => {
               </div>
             </div>
           </div>
-          {/* <div className="mt-6 p-6  grid grid-cols-1 md:grid-cols-2 gap-10 ">
-          <div className="  ">
-            <p className=" font-poppins md:max-w-96  ">
-              {destination.call_to_action}
-            </p>
-          </div>
-          <div className="">
-            <button className="border-2 w-40 bg-white shadow-lg border-flyBlue btn   md:btn-md tracking-wider text-flyBlue font-poppins py-2 px-4 rounded-lg ">
-              Apply Now
-            </button>
-          </div>
-        </div> */}
+          
         </div>
       </div>
       {/* top universities */}
