@@ -68,11 +68,11 @@ const Services = () => {
             className={`absolute inset-0 flex items-center justify-center cursor-pointer   ${isPlaying && !isHovered ? 'hidden' : 'flex'}`}
             onClick={handlePlayPause}
           >
-          <div className="bg-gray-200 opacity-45 rounded-full p-1">
+          <div className="bg-gray-200 w-14 h-14 opacity-45 rounded-full p-1 flex justify-center items-center">
           <img
               src={isPlaying ? Pause : Play}
               alt={isPlaying ? 'Pause' : 'Play'}
-              className="w-12 h-12"
+              className="w-10 h-10"
             /> </div>
             
           </div>
