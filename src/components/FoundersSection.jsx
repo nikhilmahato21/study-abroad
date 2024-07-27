@@ -16,7 +16,7 @@ const FoundersSection = () => {
             />
           </div>
         </div>
-        <div className="w-full md:w-2/3  p-4 py-6 bg-circleSky rounded-xl">
+        <div className="w-full md:w-2/3  p-4 py-6 bg-circleSky bg-opacity-90 rounded-xl">
           <h2 className="text-2xl font-bold mb-2 font-poppins tracking-wide text-graphite">
             Mrinal Dawn
           </h2>
@@ -48,7 +48,7 @@ const FoundersSection = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-2/3 p-4 py-6  bg-circlePink rounded-xl  ">
+        <div className="w-full md:w-2/3 p-4 py-6  bg-circlePink  bg-opacity-80 rounded-xl  ">
           <h2 className="text-2xl font-bold mb-2 font-poppins tracking-wide text-graphite">
             Deepshika Thakur
           </h2>

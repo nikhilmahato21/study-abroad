@@ -436,17 +436,12 @@ const Destinations = () => {
               </div>
             </div>
           </div>
-          
         </div>
       </div>
       {/* top universities */}
       <TopUniversities universities={destination.sections[2]} />
       {/* education system */}
-      <div className="min-h-screen  bg-baseGrey flex flex-col items-center p-6">
-        <div className="max-w-6xl w-full   rounded-lg overflow-hidden">
-          <div className="p-6  grid grid-cols-1 ">education system section</div>
-        </div>
-      </div>
+      
     </>
   );
 };

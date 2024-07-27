@@ -24,7 +24,7 @@ const NavbarNew = () => {
         </div>
 
         <div className=" hidden lg:flex items-center  ">
-          <ul className="flex space-x-6 font-normal ">
+          <ul className="flex space-x-6 font-normal font-poppins  ">
             <NavLinks />
           </ul>
         </div>

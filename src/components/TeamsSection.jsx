@@ -6,17 +6,22 @@ const TeamsSection = () => {
       <div className="flex flex-col lg:flex-row items-center justify-center md:p-8  ">
         <div className="lg:w-1/2  p-4">
           <div className=" relative bg-heroBlue h-80 w-80 rounded-lg">
-            <img
-              src="https://via.placeholder.com/300"
-              alt="Experienced Person"
-              className="absolute bottom-8 right-8 rounded-lg  z-10"
-            />
+            <div className="h-80 w-80 absolute bottom-8 right-8   ">
+              <img
+                src="https://res.cloudinary.com/dynbpb9u0/image/upload/v1722018309/destiny-euro/pexels-photo-1595385_qcklrv.jpg"
+                alt="Experienced Person"
+                className=" rounded-lg object-cover h-80 w-80  z-10"
+              />
+            </div>
           </div>
         </div>
         <div className="lg:w-1/2 md:p-4">
-          <h3 className="text-gray-400 text-sm mb-2 font-poppins mt-3">Our Team and Network</h3>
+          <h3 className="text-gray-400 text-sm mb-2 font-poppins mt-3">
+            Our Team and Network
+          </h3>
           <h2 className="text-3xl font-bold mb-4 font-poppins">
-            Highly <span className="text-flyBlue"> experienced   </span>people with us
+            Highly <span className="text-flyBlue"> experienced </span>people
+            with us
           </h2>
           <p className="mb-4 font-poppins text-slate-900 font-semibold leading-relaxed">
             At Destiny Euro, our strength lies not only in our founders but also

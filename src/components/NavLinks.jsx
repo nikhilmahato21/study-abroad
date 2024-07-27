@@ -21,8 +21,8 @@ const NavLinks = () => {
         return (
           <li key={id} className="">
             <NavLink
-              className={`nav-link capitalize font-poppins tracking-wider text-graphite px-2 ${
-                isActive ? "active" : ""
+              className={`nav-link capitalize font-poppins tracking-wider text-graphite hover:font-semibold hover:text-base transition-all duration-300 px-2 ${
+                isActive ? "font-semibold" : ""
               }`}
               to={url}
             >
