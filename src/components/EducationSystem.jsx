@@ -13,7 +13,7 @@ const Card = ({ icon, title, description }) => (
 );
 const EducationSystem = ({ system }) => {
   return (
-    <div className="bg-baseGrey  min-h-screen flex  justify-center pb-96 ">
+    <div className="bg-red-300 h-[65rem] sm:h-[60rem] md:h-auto  min-h-screen flex justify-center  ">
       <div className="w-full ">
         <div className="relative">
           <img
@@ -26,9 +26,9 @@ const EducationSystem = ({ system }) => {
               {system.title.split("#")[0]}
             </h1>
           </div>
-          <div className="absolute bottom-0 left-0 right-0 mx-4 transform translate-y-[90%]  sm:translate-y-3/4  p-4 ">
+          <div className="absolute bottom-0 left-0 right-0 mx-4 transform translate-y-[90%]  md:translate-y-3/4  p-4 bg-purple-300 ">
             <div className="flex justify-center">
-              <div className="grid grid-cols-1  sm:grid-cols-3 gap-6 max-w-6xl w-full">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl w-full">
                 {system.points.map((point) => (
                   <Card
                     icon={point.split("#")[1]}
@@ -41,6 +41,7 @@ const EducationSystem = ({ system }) => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

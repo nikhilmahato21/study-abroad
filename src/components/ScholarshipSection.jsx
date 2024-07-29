@@ -2,7 +2,7 @@ import React from "react";
 
 const ScholarshipSection = () => {
   return (
-    <div className=" min-h-screen flex items-center justify-center p-2 ">
+    <div className=" min-h-screen flex items-center justify-center p-2  ">
       <div className=" lg:flex justify-center   p-10 max-w-6xl w-full gap-8">
         <div className="mb-8 lg:mb-0  lg:w-3/5  border-r-2 border-gray-300 p-2 ">
           <h1 className="text-4xl font-bold mb-4">
