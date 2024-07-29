@@ -5,6 +5,8 @@ import France from "../assets/france-des.png";
 import UK from "../assets/uk-des.jpg";
 import Poland from "../assets/poland-des.jpg";
 import TopUniversities from "../components/TopUniversities";
+import EducationSystem from "../components/EducationSystem";
+import ScholarshipSection from "../components/ScholarshipSection";
 
 const destinations = [
   {
@@ -29,11 +31,12 @@ const destinations = [
         ],
       },
       {
-        title: "Education System in Italy",
+        title:
+          "Education System in Italy#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722247860/ita_ug82d2.jpg",
         points: [
-          "Higher Education Structure: Divided into three cycles – Bachelor’s (Laurea Triennale), Master’s (Laurea Magistrale), and Doctorate (Dottorato di Ricerca).",
-          "ECTS Credits: Follows the European Credit Transfer and Accumulation System, facilitating credit transfer across Europe.",
-          "Language of Instruction: Many programs are available in English, particularly at the postgraduate level.",
+          "Higher Education Structure: Divided into three cycles – Bachelor’s (Laurea Triennale), Master’s (Laurea Magistrale), and Doctorate (Dottorato di Ricerca).#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722249842/destiny-euro/italy-images/icons8-education-100_xprjqp.png",
+          "ECTS Credits: Follows the European Credit Transfer and Accumulation System, facilitating credit transfer across Europe.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722249841/destiny-euro/italy-images/icons8-merchant-account-100_sdeajl.png",
+          "Language of Instruction: Many programs are available in English, particularly at the postgraduate level.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722249841/destiny-euro/italy-images/icons8-brief-100_fucodn.png",
         ],
       },
       {
@@ -106,9 +109,10 @@ const destinations = [
         ],
       },
       {
-        title: "Education System in Germany",
+        title:
+          "Education System in Germany#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722250248/destiny-euro/germany-images/berlin_germany.width-1110_cfwkwd.jpg",
         points: [
-          "Higher Education Institutions: Includes universities, universities of applied sciences, and technical universities.",
+          "Higher Education Institutions: Includes universities, universities of applied sciences, and technical universities.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722249842/destiny-euro/italy-images/icons8-education-100_xprjqp.png",
           "Degree Structure: Bachelor's, Master's, and Doctorate degrees with a strong emphasis on research.",
           "Language of Instruction: Many programs, especially at the Master’s level, are offered in English.",
         ],
@@ -243,9 +247,12 @@ const destinations = [
         ],
       },
       {
-        title: "Education System in UK",
+        title:
+          "Education System in UK#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722250248/destiny-euro/germany-images/berlin_germany.width-1110_cfwkwd.jpg",
         points: [
-          "⦁	Education System: UK universities are recognized for their rigorous academic programs and research excellence.",
+          "Education System: UK universities are recognized for their rigorous academic programs and research excellence.",
+          "Diverse Course Offerings: The UK offers a wide range of courses and programs, including unique specializations not commonly found elsewhere, catering to a variety of interests and career goals.",
+          "International Recognition: Degrees from UK institutions are highly regarded globally, providing graduates with a competitive edge in the international job market.",
         ],
       },
       {
@@ -441,7 +448,8 @@ const Destinations = () => {
       {/* top universities */}
       <TopUniversities universities={destination.sections[2]} />
       {/* education system */}
-      
+      <EducationSystem system={destination.sections[1]} />
+      <ScholarshipSection/>
     </>
   );
 };
