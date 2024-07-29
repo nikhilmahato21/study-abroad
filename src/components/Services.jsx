@@ -49,7 +49,7 @@ const Services = () => {
   };
   return (
     <section className="bg-baseGrey p-4 md:px-16  ">
-      <div className="flex flex-col md:flex-row items-center justify-between p-8 md:gap-10 ">
+      <div className="flex flex-col md:flex-row items-center justify-between p-2 md:gap-10 ">
         <div className="w-full md:w-1/2 md:pr-8">
           <h1 className="text-2xl md:text-3xl lg:text-5xl p-4 font-bold text-gray-800 font-poppins">
             Your Career Deserves <br /> the Best Quality.

@@ -14,7 +14,7 @@ const AboutSection = () => {
         </div>
         <div className="flex flex-col lg:flex-row items-center justify-between lg:space-x-8">
           <div className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
-            <p className="text-gray-600 mb-6 text-lg tracking-wide font-poppins leading-relaxed">
+            <p className="text-gray-600 max-w-2xl mb-6 text-lg tracking-wide font-poppins leading-relaxed">
               <span className="">At Destiny Euro,</span> we believe that
               studying abroad is more than an educational opportunity; it's a
               transformative journey that shapes futures and creates global
@@ -38,7 +38,7 @@ const AboutSection = () => {
             <h3 className="text-2xl font-semibold text-graphite font-poppins tracking-wide mb-4">
               Our Mission
             </h3>
-            <p className="text-gray-500 leading-7 font-poppins">
+            <p className="text-gray-500 leading-7 font-poppins max-w-2xl">
               Our mission is to make your study abroad journey smooth and
               successful. We provide personalized consultancy services to help
               you navigate the complexities of studying in a foreign country.
