@@ -13,7 +13,7 @@ const Card = ({ icon, title, description }) => (
 );
 const EducationSystem = ({ system }) => {
   return (
-    <div className=" bg-baseGrey h-[68rem] sm:h-[60rem] md:h-auto  min-h-screen flex justify-center  ">
+    <div className=" bg-baseGrey h-[65rem] sm:h-[60rem] md:h-[40rem]   flex justify-center  ">
       <div className="w-full  ">
         <div className="relative ">
           <img
