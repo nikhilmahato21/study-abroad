@@ -56,7 +56,8 @@ const destinations = [
       },
 
       {
-        title: "Scholarships and Financial Aid",
+        title:
+          "Scholarships and Financial Aid in Italy: A Comprehensive Guide to Funding Your Education",
         points: [
           "Government Scholarships: Available for international students.",
           "University Scholarships: Each university offers its own range of scholarships based on merit and financial need.",
@@ -449,7 +450,7 @@ const Destinations = () => {
       <TopUniversities universities={destination.sections[2]} />
       {/* education system */}
       <EducationSystem system={destination.sections[1]} />
-      <ScholarshipSection/>
+      <ScholarshipSection />
     </>
   );
 };
