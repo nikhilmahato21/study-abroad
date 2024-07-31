@@ -450,7 +450,7 @@ const Destinations = () => {
       <TopUniversities universities={destination.sections[2]} />
       {/* education system */}
       <EducationSystem system={destination.sections[1]} />
-      <ScholarshipSection />
+      <ScholarshipSection scholarship={destination.sections[3]} />
     </>
   );
 };
