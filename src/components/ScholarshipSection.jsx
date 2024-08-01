@@ -12,7 +12,7 @@ const iconMapping = {
   2: Icon2,
   3: Icon3,
   4:Icon4,
-  // Add more mappings as needed
+  
 };
 
 const ScholarshipSection = ({ scholarship }) => {
@@ -21,10 +21,10 @@ const ScholarshipSection = ({ scholarship }) => {
       <div className=" lg:flex justify-center   p-2 max-w-6xl w-full gap-8 ">
         <div className="mb-10 lg:mb-0  lg:w-3/5    md:border-r-2 border-gray-300  flex flex-col justify-center items-center  gap-5">
           <div>
-            <h1 className="text-3xl font-bold mb-4 font-poppins">
+            <h1 className="text-3xl font-bold mb-4 font-poppins text-center">
               {scholarship.title.split(":")[0]}
             </h1>
-            <h1 className="text-xl font-normal font-poppins text-gray-400 mb-4">
+            <h1 className="text-xl font-normal font-poppins text-gray-400 mb-4 text-center">
               {scholarship.title.split(":")[1]}
             </h1>
           </div>

@@ -7,6 +7,9 @@ import Poland from "../assets/poland-des.jpg";
 import TopUniversities from "../components/TopUniversities";
 import EducationSystem from "../components/EducationSystem";
 import ScholarshipSection from "../components/ScholarshipSection";
+import CountryIntroduction from "../components/CountryIntroduction";
+import HighlightsSection from "../components/HighlightsSection";
+import StudentCulture from "../components/StudentCulture";
 
 const destinations = [
   {
@@ -66,6 +69,9 @@ const destinations = [
       },
       {
         title: "Student Life and Culture",
+        image1:"",
+        image2:"",
+        image3:"",
         points: [
           "Vibrant Student Communities: Engage in various student organizations and cultural activities.",
           "Festivals and Events: Enjoy numerous festivals, from Venice Carnival to Milan Fashion Week.",
@@ -144,6 +150,9 @@ const destinations = [
       },
       {
         title: "Student Life and Culture",
+        image1:"",
+        image2:"",
+        image3:"",
         points: [
           "Dynamic Student Communities: Participate in diverse student organizations and events.",
           "Cultural Experiences: Enjoy Germany’s rich history, art, and cultural festivals.",
@@ -211,6 +220,9 @@ const destinations = [
 
       {
         title: "Student Life and Culture",
+        image1:"",
+        image2:"",
+        image3:"",
         points: [
           "Culture & Lifestyle: France is synonymous with culture, fashion, and cuisine. Students can enjoy a rich cultural life with numerous museums, theaters, and cafes.",
         ],
@@ -276,6 +288,9 @@ const destinations = [
 
       {
         title: "Student Life and Culture",
+        image1:"",
+        image2:"",
+        image3:"",
         points: [
           "Culture & Lifestyle: The UK is known for its diverse culture, historical landmarks, and vibrant student communities.",
         ],
@@ -340,6 +355,9 @@ const destinations = [
 
       {
         title: "Student Life and Culture",
+        image1:"",
+        image2:"",
+        image3:"",
         points: [
           "Culture & Lifestyle : Poland boasts a rich cultural heritage, with a vibrant student life and numerous historical sites",
         ],
@@ -378,72 +396,14 @@ const Destinations = () => {
           <div className="flex justify-around py-4 mb-10 md:px-40  ">
             {/* highlight section */}
             {destinations.map((destination) => (
-              <div
-                className="text-center hover:scale-125    transition-all duration-500   "
-                onClick={() => setCountry(destination.name)}
-              >
-                <img
-                  src={destination.image}
-                  alt="Italy"
-                  className="w-12 h-12 md:w-16  md:h-16 mx-auto object-cover  rounded-full hover:border-4 hover:border-zinc-200 hover:shadow-lg "
-                />
-                <p className="mt-2 capitalize font-poppins tracking-wide text-graphite">
-                  {destination.name}
-                </p>
-              </div>
+              <HighlightsSection
+                setCountry={setCountry}
+                destination={destination}
+              />
             ))}
           </div>
 
-          <div className="md:p-6  grid grid-cols-1 ">
-            <div
-              className="relative  bg-cover bg-center rounded-xl overflow-hidden  h-96 object-center"
-              style={{ backgroundImage: `url(${destination.image})` }}
-            >
-              <div className="absolute inset-0 bg-black opacity-50"></div>
-              <div className="relative flex items-center justify-center h-full">
-                <div className="text-center text-white px-6 md:px-12 lg:px-24">
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-poppins">
-                    {destination.heading}
-                  </h1>
-                  <p className="text-lg md:text-xl lg:text-2xl mb-6 font-poppins">
-                    {destination.subheading}
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col md:flex-row items-center justify-center gap-3  py-8 px-1 md:p-8">
-              <div className="md:w-1/2 ">
-                <h2 className="text-3xl font-bold mb-4 font-poppins">
-                  {destination.sections[0].title}
-                </h2>
-                <p className="text-gray-600 mb-4 font-poppins">
-                  {destination.introduction}
-                </p>
-                <div className="mb-4">
-                  {destination.sections[0].points.map((point) => (
-                    <div className="flex items-center mb-2 ">
-                      <div>
-                        <h3 className="font-bold font-poppins text-lg">
-                          {point.split(": ")[0]}
-                        </h3>
-                        <p className="text-gray-600 font-poppins">
-                          {point.split(": ")[1]}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="md:w-1/2   bg-cyan-300 h-4/5 overflow-hidden rounded-lg">
-                <img
-                  src={destination.loc_image}
-                  alt="Adventure"
-                  className="w-full h-full  rounded-lg shadow-lg   object-cover object-center"
-                />
-              </div>
-            </div>
-          </div>
+          <CountryIntroduction destination={destination} />
         </div>
       </div>
       {/* top universities */}
@@ -451,6 +411,7 @@ const Destinations = () => {
       {/* education system */}
       <EducationSystem system={destination.sections[1]} />
       <ScholarshipSection scholarship={destination.sections[3]} />
+      <StudentCulture culture={destination.sections[4]} />
     </>
   );
 };
