@@ -69,9 +69,12 @@ const destinations = [
       },
       {
         title: "Student Life and Culture",
-        image1:"",
-        image2:"",
-        image3:"",
+        image1:
+          "https://i0.wp.com/www.touristitaly.com/wp-content/uploads/2024/01/shutterstock_1008425929.jpg?resize=1024%2C683&ssl=1",
+        image2:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722590029/destiny-euro/italy-images/pizza-calabrese-tomato_sbxyfw.jpg",
+        image3:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722583703/destiny-euro/italy-images/pexels-photo-4046386_tfr7fe.jpg",
         points: [
           "Vibrant Student Communities: Engage in various student organizations and cultural activities.",
           "Festivals and Events: Enjoy numerous festivals, from Venice Carnival to Milan Fashion Week.",
@@ -150,12 +153,15 @@ const destinations = [
       },
       {
         title: "Student Life and Culture",
-        image1:"",
-        image2:"",
-        image3:"",
+        image1:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722584883/destiny-euro/germany-images/pexels-photo-9318518_vs7yjx.jpg",
+        image2:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722584326/destiny-euro/germany-images/pexels-photo-12265857_gsn5ec.jpg",
+        image3:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722584728/destiny-euro/germany-images/pexels-photo-6053701_qpqgdn.jpg",
         points: [
-          "Dynamic Student Communities: Participate in diverse student organizations and events.",
-          "Cultural Experiences: Enjoy Germany’s rich history, art, and cultural festivals.",
+          "Dynamic Student Communities:Engage with like-minded individuals, explore new interests, and develop valuable skills that will enrich your academic journey and beyond.",
+          "Cultural Experiences: Immerse yourself in Germany's vibrant culture and rich heritage! Discover the country's fascinating history, from medieval castles to modern museums. ",
           "Cuisine: Savor traditional German dishes like pretzels, sausages, and schnitzel.",
         ],
       },
@@ -220,12 +226,15 @@ const destinations = [
 
       {
         title: "Student Life and Culture",
-        image1:"",
-        image2:"",
-        image3:"",
+        image1: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722586826/destiny-euro/france-images/free-photo-of-arles-town-in-france_c5wac1.jpg",
+        image2: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722586627/destiny-euro/france-images/free-photo-of-cupcakes-in-a-kitchen_ddxw8d.jpg",
+        image3: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722586904/destiny-euro/france-images/pexels-photo-460740_f4nrvo.jpg",
         points: [
-          "Culture & Lifestyle: France is synonymous with culture, fashion, and cuisine. Students can enjoy a rich cultural life with numerous museums, theaters, and cafes.",
+          "Dynamic Student Communities: Engage with passionate peers, explore diverse interests, and enhance your skills through vibrant student activities.",
+          "Cultural Experiences: Immerse yourself in France's rich heritage! Explore iconic landmarks like the Eiffel Tower and the Louvre.",
+          "Cuisine: Delight in France's culinary offerings, from baguettes and pastries to coq au vin and renowned wines and cheeses.",
         ],
+        
       },
       {
         title: "Popular Courses in France",
@@ -288,11 +297,13 @@ const destinations = [
 
       {
         title: "Student Life and Culture",
-        image1:"",
-        image2:"",
-        image3:"",
+        image1: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722588610/destiny-euro/uk-images/pexels-photo-1059078_kvmw53.jpg",
+        image2: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722589401/destiny-euro/uk-images/shepherdspie_2077_16x9_yex5zm.jpg",
+        image3: "https://images.pexels.com/photos/77171/pexels-photo-77171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         points: [
-          "Culture & Lifestyle: The UK is known for its diverse culture, historical landmarks, and vibrant student communities.",
+          "Dynamic Student Communities: Connect with like-minded students, explore diverse interests, and develop valuable skills through vibrant campus activities.",
+          "Cultural Experiences: Discover the UK's rich heritage! Visit landmarks like Buckingham Palace, Stonehenge, and the British Museum.",
+          "Cuisine: Enjoy traditional British dishes like fish and chips, shepherd's pie, and afternoon tea. Savor the unique flavors of British cuisine.",
         ],
       },
       {
@@ -355,11 +366,13 @@ const destinations = [
 
       {
         title: "Student Life and Culture",
-        image1:"",
-        image2:"",
-        image3:"",
+        image1: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722590354/destiny-euro/poland-images/poland-wawel-castle-and-cathedral-krakow_ttgrtk.jpg",
+        image2: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722590259/destiny-euro/poland-images/Pierogi_500-scaled_j9xrez.jpg",
+        image3: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722590438/destiny-euro/poland-images/shutterstock-2100833263-scaled_bacffz.jpg",
         points: [
-          "Culture & Lifestyle : Poland boasts a rich cultural heritage, with a vibrant student life and numerous historical sites",
+          "Dynamic Student Communities: Engage with fellow students, explore new interests, and develop valuable skills through vibrant campus activities.",
+          "Cultural Experiences: Immerse yourself in Poland's rich heritage! Visit historical sites like Wawel Castle and the Wieliczka Salt Mine.",
+          "Cuisine: Enjoy traditional Polish dishes like pierogi, kielbasa, and bigos. Savor the hearty and unique flavors of Polish cuisine.",
         ],
       },
       {
