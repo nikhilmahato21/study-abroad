@@ -37,9 +37,9 @@ const destinations = [
         title:
           "Education System in Italy#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722247860/ita_ug82d2.jpg",
         points: [
-          "Higher Education Structure: Divided into three cycles – Bachelor’s (Laurea Triennale), Master’s (Laurea Magistrale), and Doctorate (Dottorato di Ricerca).#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722249842/destiny-euro/italy-images/icons8-education-100_xprjqp.png",
-          "ECTS Credits: Follows the European Credit Transfer and Accumulation System, facilitating credit transfer across Europe.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722249841/destiny-euro/italy-images/icons8-merchant-account-100_sdeajl.png",
-          "Language of Instruction: Many programs are available in English, particularly at the postgraduate level.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722249841/destiny-euro/italy-images/icons8-brief-100_fucodn.png",
+          "Higher Education Structure: Divided into three cycles – Bachelor’s (Laurea Triennale), Master’s (Laurea Magistrale), and Doctorate (Dottorato di Ricerca).",
+          "ECTS Credits: Follows the European Credit Transfer and Accumulation System, facilitating credit transfer across Europe.",
+          "Language of Instruction: Many programs are available in English, particularly at the postgraduate level.",
         ],
       },
       {

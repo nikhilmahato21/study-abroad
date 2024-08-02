@@ -2,46 +2,13 @@
 
 import React from "react";
 
-const steps = [
-  {
-    title: "Concept",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Ipsum has been industry.",
-  },
-  {
-    title: "Plan",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Ipsum has been industry.",
-  },
-  {
-    title: "Design",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Ipsum has been industry.",
-  },
-  {
-    title: "Build",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Ipsum has been industry.",
-  },
-  {
-    title: "Plan",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Ipsum has been industry.",
-  },
-];
 
-const images = [
-  { src: "path-to-image-1.jpg", alt: "Living Room" },
-  { src: "path-to-image-2.jpg", alt: "Stairs" },
-  { src: "path-to-image-3.jpg", alt: "Dining Room" },
-  { src: "path-to-image-4.jpg", alt: "Living Room with Dog" },
-];
 
-const StudentCulture = ({culture}) => {
+const StudentCulture = ({ culture }) => {
   return (
-    <div className=" p-16 min-h-screen bg-baseGrey">
+    <div className=" p-4 md:p-16 min-h-screen bg-baseGrey">
       <h2 className="text-4xl font-bold text-center mb-8 font-poppins">
-        { culture.title }
+        {culture.title}
       </h2>
       <div className="lg:flex lg:space-x-8">
         {/* Left Section */}
@@ -52,8 +19,12 @@ const StudentCulture = ({culture}) => {
                 {/* Icon can be placed here */}
               </div>
               <div className=" w-3/4">
-                <h3 className="text-xl font-semibold font-poppins">{culture.split(":")[0]}</h3>
-                <p className="text-gray-600 font-poppins max-w-md mb-3">{culture.split(":")[1]}</p>
+                <h3 className="text-xl font-semibold font-poppins">
+                  {culture.split(":")[0]}
+                </h3>
+                <p className="text-gray-600 font-poppins max-w-md mb-3">
+                  {culture.split(":")[1]}
+                </p>
               </div>
             </div>
           ))}
