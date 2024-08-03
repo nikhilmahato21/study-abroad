@@ -32,7 +32,7 @@ const EducationSystem = ({ system }) => {
       <div className="w-full  ">
         <div className="relative ">
           <img
-            src={system.title.split("#")[1]}
+            src={system.image}
             alt="Example"
             className="w-full  h-80 object-cover"
           />

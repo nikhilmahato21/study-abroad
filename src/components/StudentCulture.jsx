@@ -4,7 +4,7 @@ import React from "react";
 
 const StudentCulture = ({ culture }) => {
   return (
-    <div className=" p-4 md:p-16 min-h-screen bg-baseGrey">
+    <div className=" p-4 md:p-16  bg-baseGrey">
       <h2 className="text-4xl font-bold text-center mb-8 font-poppins">
         {culture.title}
       </h2>

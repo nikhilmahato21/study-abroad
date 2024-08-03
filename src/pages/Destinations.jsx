@@ -10,6 +10,7 @@ import ScholarshipSection from "../components/ScholarshipSection";
 import CountryIntroduction from "../components/CountryIntroduction";
 import HighlightsSection from "../components/HighlightsSection";
 import StudentCulture from "../components/StudentCulture";
+import Courses from "../components/Courses";
 
 const destinations = [
   {
@@ -34,8 +35,9 @@ const destinations = [
         ],
       },
       {
-        title:
-          "Education System in Italy#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722247860/ita_ug82d2.jpg",
+        title: "Education System in Italy",
+        image:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722247860/ita_ug82d2.jpg",
         points: [
           "Higher Education Structure: Divided into three cycles – Bachelor’s (Laurea Triennale), Master’s (Laurea Magistrale), and Doctorate (Dottorato di Ricerca).",
           "ECTS Credits: Follows the European Credit Transfer and Accumulation System, facilitating credit transfer across Europe.",
@@ -83,11 +85,15 @@ const destinations = [
       },
       {
         title: "Popular Courses in Italy",
+        description:
+          "Italy is renowned for its rich cultural heritage and educational excellence, making it a popular destination for students worldwide. The country offers a wide array of courses that attract international students.",
         points: [
-          "Popular Courses: Design, Architecture, Culinary Arts, and Economics.",
+          "Design $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722599712/destiny-euro/italy-images/icons8-design-64_i47txt.png",
+          "Architecture $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722667421/destiny-euro/italy-images/icons8-architecture-80_om529q.png",
+          "Culinary Arts $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722667452/destiny-euro/italy-images/icons8-culinary-50_auti5p.png",
+          "Economics $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722669275/destiny-euro/italy-images/icons8-profit-report-50_ftyst3.png",
         ],
       },
-
       {
         title: "Exploring Italy",
         points: [
@@ -119,8 +125,9 @@ const destinations = [
         ],
       },
       {
-        title:
-          "Education System in Germany#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722250248/destiny-euro/germany-images/berlin_germany.width-1110_cfwkwd.jpg",
+        title: "Education System in Germany",
+        image:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722250248/destiny-euro/germany-images/berlin_germany.width-1110_cfwkwd.jpg",
         points: [
           "Higher Education Institutions: Includes universities, universities of applied sciences, and technical universities.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722249842/destiny-euro/italy-images/icons8-education-100_xprjqp.png",
           "Degree Structure: Bachelor's, Master's, and Doctorate degrees with a strong emphasis on research.",
@@ -144,7 +151,8 @@ const destinations = [
       },
 
       {
-        title: "Scholarships and Financial Aid",
+        title:
+          "Scholarships and Financial Aid in Germany: A Comprehensive Guide to Funding Your Education",
         points: [
           "DAAD Scholarships: Offered by the German Academic Exchange Service for international students.",
           "University Scholarships: Various universities provide scholarships based on merit and need.",
@@ -167,8 +175,13 @@ const destinations = [
       },
       {
         title: "Popular Courses in Germany",
+        description:
+          "Germany is well-known for its high-quality education system and strong emphasis on research and innovation. It attracts a significant number of international students with its diverse and prestigious academic programs.",
         points: [
-          "Popular Courses: Engineering, Computer Science, Business Administration, and Natural Sciences.",
+          "Engineering $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674221/destiny-euro/germany-images/icons8-engineering-50_ysc2z2.png",
+          "Computer Science $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674221/destiny-euro/germany-images/icons8-coding-50_feahkf.png",
+          "Business Administration $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722669489/destiny-euro/germany-images/icons8-business-strategy-60_b0luau.png",
+          "Natural Sciences $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674221/destiny-euro/germany-images/icons8-physics-50_nayisf.png",
         ],
       },
 
@@ -202,8 +215,12 @@ const destinations = [
       },
       {
         title: "Education System in France",
+        image:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722591499/destiny-euro/france-images/versailles-94571_r5nq33.jpg",
         points: [
           "Education System: French universities and Grandes Écoles are known for their high standards and innovative programs.",
+          "Degree Structure: Licence (Bachelor's), Master's, and Doctorate degrees, with a focus on academic excellence and critical thinking.",
+          "Language of Instruction: While French is the primary language, many programs are offered in English, especially at the Master's and Doctorate levels.",
         ],
       },
       {
@@ -215,7 +232,8 @@ const destinations = [
         ],
       },
       {
-        title: "Scholarships and Financial Aid",
+        title:
+          "Scholarships and Financial Aid in France: A Comprehensive Guide to Funding Your Education",
         points: [
           "Eiffel Excellence Scholarship Program: Offered by the French Ministry for Europe and Foreign Affairs for international students.",
           "Université Paris-Saclay International Master's Scholarships: Scholarships for international students enrolling in master’s programs at Université Paris-Saclay.",
@@ -226,19 +244,28 @@ const destinations = [
 
       {
         title: "Student Life and Culture",
-        image1: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722586826/destiny-euro/france-images/free-photo-of-arles-town-in-france_c5wac1.jpg",
-        image2: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722586627/destiny-euro/france-images/free-photo-of-cupcakes-in-a-kitchen_ddxw8d.jpg",
-        image3: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722586904/destiny-euro/france-images/pexels-photo-460740_f4nrvo.jpg",
+        image1:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722586826/destiny-euro/france-images/free-photo-of-arles-town-in-france_c5wac1.jpg",
+        image2:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722586627/destiny-euro/france-images/free-photo-of-cupcakes-in-a-kitchen_ddxw8d.jpg",
+        image3:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722586904/destiny-euro/france-images/pexels-photo-460740_f4nrvo.jpg",
         points: [
           "Dynamic Student Communities: Engage with passionate peers, explore diverse interests, and enhance your skills through vibrant student activities.",
           "Cultural Experiences: Immerse yourself in France's rich heritage! Explore iconic landmarks like the Eiffel Tower and the Louvre.",
           "Cuisine: Delight in France's culinary offerings, from baguettes and pastries to coq au vin and renowned wines and cheeses.",
         ],
-        
       },
       {
         title: "Popular Courses in France",
-        points: ["Popular Courses: Arts, Fashion, Business, and Engineering."],
+        description:
+          "France is celebrated for its vibrant culture, artistic heritage, and world-class education system. It offers a variety of courses that draw students from around the globe, particularly in fields that reflect its cultural and economic strengths.",
+        points: [
+          "Arts $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674736/destiny-euro/france-images/inspiration_l6j7ee.png",
+          "Fashion $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674736/destiny-euro/france-images/dress_tc8sqv.png",
+          "Business $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674904/destiny-euro/france-images/growth_hx56jd.png",
+          "Engineering $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674221/destiny-euro/germany-images/icons8-engineering-50_ysc2z2.png",
+        ],
       },
 
       {
@@ -269,8 +296,9 @@ const destinations = [
         ],
       },
       {
-        title:
-          "Education System in UK#https://res.cloudinary.com/dynbpb9u0/image/upload/v1722250248/destiny-euro/germany-images/berlin_germany.width-1110_cfwkwd.jpg",
+        title: "Education System in UK",
+        image:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722594987/destiny-euro/uk-images/wide_fullhd_united-kingdom_skugg3.jpg",
         points: [
           "Education System: UK universities are recognized for their rigorous academic programs and research excellence.",
           "Diverse Course Offerings: The UK offers a wide range of courses and programs, including unique specializations not commonly found elsewhere, catering to a variety of interests and career goals.",
@@ -286,7 +314,8 @@ const destinations = [
         ],
       },
       {
-        title: "Scholarships and Financial Aid",
+        title:
+          "Scholarships and Financial Aid in UK: A Comprehensive Guide to Funding Your Education",
         points: [
           "Chevening Scholarships: Offered by the UK government for international students.",
           "Commonwealth Scholarships: For students from Commonwealth countries.",
@@ -297,9 +326,12 @@ const destinations = [
 
       {
         title: "Student Life and Culture",
-        image1: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722588610/destiny-euro/uk-images/pexels-photo-1059078_kvmw53.jpg",
-        image2: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722589401/destiny-euro/uk-images/shepherdspie_2077_16x9_yex5zm.jpg",
-        image3: "https://images.pexels.com/photos/77171/pexels-photo-77171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image1:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722595145/destiny-euro/uk-images/pexels-photo-1427569_jucage.jpg",
+        image2:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722589401/destiny-euro/uk-images/shepherdspie_2077_16x9_yex5zm.jpg",
+        image3:
+          "https://images.pexels.com/photos/77171/pexels-photo-77171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         points: [
           "Dynamic Student Communities: Connect with like-minded students, explore diverse interests, and develop valuable skills through vibrant campus activities.",
           "Cultural Experiences: Discover the UK's rich heritage! Visit landmarks like Buckingham Palace, Stonehenge, and the British Museum.",
@@ -308,8 +340,13 @@ const destinations = [
       },
       {
         title: "Popular Courses in UK",
+        description:
+          "The United Kingdom is known for its prestigious universities and diverse academic offerings. It is a top destination for international students seeking high-quality education and a rich cultural experience.",
         points: [
-          "Popular Courses: Business, Engineering, Medicine, and Humanities.",
+          " Business $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674904/destiny-euro/france-images/growth_hx56jd.png",
+          "Engineering $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674221/destiny-euro/germany-images/icons8-engineering-50_ysc2z2.png",
+          "Medicine $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722675202/destiny-euro/france-images/medicine_rwckan.png",
+          "Humanities $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722675201/destiny-euro/france-images/humanity_ypxbwb.png",
         ],
       },
 
@@ -342,8 +379,12 @@ const destinations = [
       },
       {
         title: "Education System in Poland",
+        image:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722594768/destiny-euro/poland-images/pexels-photo-13357697_n4avul.jpg",
         points: [
           "Education System: Polish universities offer a wide range of programs with a strong focus on research and innovation.",
+          "Quality of Education: Polish universities are known for their high academic standards and rigorous curricula.",
+          "Tuition Fees and Scholarships: Poland offers relatively low tuition fees and numerous scholarships for students.",
         ],
       },
       {
@@ -355,7 +396,8 @@ const destinations = [
         ],
       },
       {
-        title: "Scholarships and Financial Aid",
+        title:
+          "Scholarships and Financial Aid in Poland: A Comprehensive Guide to Funding Your Education",
         points: [
           "Poland Government Scholarship: Offered by the Polish National Agency for Academic Exchange (NAWA) for international students.",
           "University Scholarships: Various Polish universities provide scholarships based on merit and need.",
@@ -366,9 +408,12 @@ const destinations = [
 
       {
         title: "Student Life and Culture",
-        image1: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722590354/destiny-euro/poland-images/poland-wawel-castle-and-cathedral-krakow_ttgrtk.jpg",
-        image2: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722590259/destiny-euro/poland-images/Pierogi_500-scaled_j9xrez.jpg",
-        image3: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722590438/destiny-euro/poland-images/shutterstock-2100833263-scaled_bacffz.jpg",
+        image1:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722590354/destiny-euro/poland-images/poland-wawel-castle-and-cathedral-krakow_ttgrtk.jpg",
+        image2:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722590259/destiny-euro/poland-images/Pierogi_500-scaled_j9xrez.jpg",
+        image3:
+          "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722590438/destiny-euro/poland-images/shutterstock-2100833263-scaled_bacffz.jpg",
         points: [
           "Dynamic Student Communities: Engage with fellow students, explore new interests, and develop valuable skills through vibrant campus activities.",
           "Cultural Experiences: Immerse yourself in Poland's rich heritage! Visit historical sites like Wawel Castle and the Wieliczka Salt Mine.",
@@ -377,9 +422,14 @@ const destinations = [
       },
       {
         title: "Popular Courses in Poland",
-        points: [
-          "Popular Courses: Engineering, Medicine, Humanities, and Business.",
-        ],
+        description:
+          "Poland is home to a diverse range of academic programs, attracting students from around the world with its high-quality education and affordable tuition fees. The country offers a blend of traditional and modern courses, tailored to meet the evolving demands of various industries. Polish universities are renowned for their rigorous academic standards and vibrant campus life, providing an enriching environment for both personal and professional growth.",
+          points: [
+            " Business $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674904/destiny-euro/france-images/growth_hx56jd.png",
+            "Engineering $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722674221/destiny-euro/germany-images/icons8-engineering-50_ysc2z2.png",
+            "Medicine $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722675202/destiny-euro/france-images/medicine_rwckan.png",
+            "Humanities $https://res.cloudinary.com/dynbpb9u0/image/upload/v1722675201/destiny-euro/france-images/humanity_ypxbwb.png",
+          ],
       },
 
       {
@@ -425,6 +475,8 @@ const Destinations = () => {
       <EducationSystem system={destination.sections[1]} />
       <ScholarshipSection scholarship={destination.sections[3]} />
       <StudentCulture culture={destination.sections[4]} />
+
+      <Courses course={destination.sections[5]} />
     </>
   );
 };
