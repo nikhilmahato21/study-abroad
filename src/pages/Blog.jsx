@@ -2,10 +2,9 @@ import React from "react";
 import { limitTextTo200Words } from "../utils";
 import { Link } from "react-router-dom";
 import { blogPosts } from "../Lists";
-
+const AllBlogLists = blogPosts;
 const Blog = () => {
   // Sample blog posts data
-  const blogPosts = blogPosts
 
   return (
     <section className="py-16 bg-gray-50 lg:px-24">
@@ -22,7 +21,7 @@ const Blog = () => {
           </p>
         </div>
         <div className="grid grid-cols-1  gap-8">
-          {blogPosts.map((post) => (
+          {AllBlogLists.map((post) => (
             <div
               key={post.id}
               className="bg-white p-6 rounded-lg shadow-lg flex flex-col lg:flex-row"

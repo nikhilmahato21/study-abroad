@@ -2,6 +2,7 @@ import React from "react";
 
 const HighlightsSection = ({destination,setCountry}) => {
   return (
+    
     <div
       className="text-center hover:scale-125    transition-all duration-500   "
       onClick={() => setCountry(destination.name)}
