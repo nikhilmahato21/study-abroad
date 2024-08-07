@@ -17,9 +17,9 @@ const iconMapping = {
 
 const ScholarshipSection = ({ scholarship }) => {
   return (
-    <div className="  flex items-center justify-center p-2  pt-4 ">
+    <div className="  flex items-center justify-center p-2   ">
       <div className=" lg:flex justify-center   p-2 max-w-6xl w-full gap-8 ">
-        <div className="mb-10 lg:mb-0  lg:w-3/5    lg:border-r-2 border-gray-300  flex flex-col justify-center items-center  gap-5">
+        <div className="mb-10 lg:mb-0  lg:w-3/5 py-12 lg:border-r-2 border-gray-300  flex flex-col justify-center items-center  gap-5">
           <div>
             <h1 className="text-3xl font-bold mb-4 font-poppins text-center">
               {scholarship.title.split(":")[0]}
@@ -42,10 +42,10 @@ const ScholarshipSection = ({ scholarship }) => {
             </div>
           </div>
         </div>
-        <div className=" lg:w-2/5 grid grid-cols-1  gap-4  ">
+        <div className=" lg:w-2/5 grid grid-cols-1  gap-4   ">
           {scholarship.points.map((point, index) => (
-            <div key={index} className={`${index!==scholarship.points.length-1 && "border-b-2"  } py-2 flex  h-52   border-gray-300`}>
-              <div className=" w-20 h-20 flex  justify-center ">
+            <div key={index} className={`${index!==scholarship.points.length-1 && "border-b-2"  } py-2 flex justify-center items-center  h-52   border-gray-300`}>
+              <div className=" w-20 h-20 flex  justify-center items-center ">
                 {" "}
                 <img src={iconMapping[index+1]} alt="" className="h-10" />{" "}
               </div>

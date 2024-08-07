@@ -1,6 +1,16 @@
-// src/components/WorkProcess.js
+
 
 import React from "react";
+
+
+
+const iconMapping = {
+  1: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722676429/destiny-euro/group_mrfo85.png",
+  2: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722676429/destiny-euro/united_mqh6id.png",
+  3: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722676428/destiny-euro/cuisine_lan1d0.png",
+  
+  
+};
 
 const StudentCulture = ({ culture }) => {
   return (
@@ -13,8 +23,8 @@ const StudentCulture = ({ culture }) => {
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           {culture.points.map((culture, index) => (
             <div key={index} className="flex mb-8 justify-center ">
-              <div className="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mr-4">
-                {/* Icon can be placed here */}
+              <div className="w-12 h-12  rounded-full flex items-center justify-center mr-4">
+                <img src={iconMapping[index+1]} alt="" />
               </div>
               <div className=" w-3/4">
                 <h3 className="text-xl font-semibold font-poppins mb-2">
