@@ -22,9 +22,9 @@ const BlogDetails = () => {
       <img
         src={post.imageUrl}
         alt={post.title}
-        className="w-full h-96 rounded-lg shadow-lg mb-8"
+        className="w-full h-96 rounded-lg shadow-lg mb-8  object-cover object-center"
       />
-      <div className="text-gray-800 font-poppins">
+      <div className="text-gray-600 font-semibold font-poppins text-center">
         <p>{post.introduction}</p>
         {/* Add more sections and content as needed */}
       </div>
