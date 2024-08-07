@@ -9,14 +9,14 @@ const ServiceSection = ({ service }) => {
     >
       <div className="max-w-6xl w-full    rounded-lg overflow-hidden">
         <div className="flex  flex-col  items-center justify-center py-4 mb-10 md:px-40  ">
-          <h1 className="font-poppins text-2xl ">{service.service}</h1>
-          <p className="font-poppins text-gray-700">{service.callToAction}</p>
+          <h1 className="font-poppins text-2xl font-bold  ">{service.service}</h1>
+          <p className="font-poppins text-gray-600 font-semibold text-center">{service.callToAction}</p>
         </div>
 
-        <div className="p-6  grid grid-cols-1 md:grid-cols-2">
+        <div className="p-6  grid grid-cols-1 md:grid-cols-2 ">
           <div>
             {" "}
-            <h1 className="text-4xl font-light font-poppins tracking-wide mb-4">
+            <h1 className="text-2xl md:text-4xl font-normal  font-poppins tracking-normal mb-4">
               {service.heading}
             </h1>
             <p className="mb-6 font-poppins text-graphite">
@@ -25,9 +25,9 @@ const ServiceSection = ({ service }) => {
             <img
               src={service.imageUrl}
               alt={service.service}
-              className=" w-96 h-96 rounded-md object-cover object-center mb-6 "
+              className="  w-96 h-96 rounded-md object-cover object-center mb-6 "
             />
-            <p className="mb-6 max-w-96 font-poppins">{service.introduction}</p>
+            
           </div>
 
           <div className=" flex flex-col items-center justify-center">
@@ -53,6 +53,9 @@ const ServiceSection = ({ service }) => {
               </div>
             ))}
           </div>
+        </div>
+        <div>
+        <p className="mb-6 text-center font-medium text-gray-600 font-poppins">{service.introduction}</p>
         </div>
       </div>
     </div>

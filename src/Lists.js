@@ -5,7 +5,7 @@ export const blogPosts = [
       "Top Universities in Italy for International Students: A Comprehensive Guide",
     author: "Mrinal Dawn",
     date: "June 20, 2024",
-    imageUrl: "https://via.placeholder.com/300x200",
+    imageUrl: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723028243/destiny-euro/italy-images/534799507_fvvhgx.jpg",
     introduction:
       "Italy, a country renowned for its rich history, breathtaking landscapes, and unparalleled cultural heritage, is also a hub for higher education. With a legacy that spans centuries, Italy boasts some of the oldest and most prestigious universities in the world. For international students, studying in Italy offers an opportunity to immerse themselves in world-class education while experiencing the vibrant Italian lifestyle. This blog post explores the top universities in Italy, highlighting their unique features and benefits that make them attractive to students from around the globe.",
     sections: [
@@ -303,7 +303,7 @@ export const blogPosts = [
     title: "Top Universities in Germany for International Students",
     author: "Mrinal Dawn",
     date: "2024-08-06",
-    imageUrl: "https://via.placeholder.com/300x200",
+    imageUrl: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723042275/destiny-euro/germany-images/college_631_24-15_08_f1_j2ytvc.jpg",
     introduction:
       "Germany is renowned for its world-class universities, cutting-edge research, and vibrant student life. With a strong tradition of academic excellence, Germany attracts students from all over the world. This blog post explores the top ten universities in Germany, detailing their programs, campuses, research opportunities, and student life. We will also highlight their rankings, notable alumni, and unique features that make them attractive to international students.",
     sections: [
@@ -565,9 +565,9 @@ export const blogPosts = [
     id: 3,
     title:
       "Why Study in Germany? An Overview of Benefits for International Students",
-    author: "Author Name",
-    date: "2024-08-07",
-    imageUrl: "https://via.placeholder.com/300x200",
+    author: "Mrinal Dawn",
+    date: "June 20, 2024",
+    imageUrl: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1722584728/destiny-euro/germany-images/pexels-photo-6053701_qpqgdn.jpg",
     introduction:
       "Germany, a country known for its rich history, cultural diversity, and technological advancements, is also a leading destination for higher education. With its world-class universities, cutting-edge research facilities, and vibrant student life, Germany offers an unparalleled experience for international students. This blog post will explore the numerous advantages of studying in Germany, including high-quality education, research opportunities, low or no tuition fees, a strong economy, an international environment, and promising post-graduation job prospects.",
     sections: [
@@ -678,9 +678,9 @@ export const blogPosts = [
   {
     id: 4,
     title: "Why Study in Italy: The Ultimate Guide for International Students",
-    author: "Author Name",
-    date: "2024-08-07",
-    imageUrl: "https://via.placeholder.com/300x200",
+    author: "Mrinal Dawn",
+    date: "June 20, 2024",
+    imageUrl: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723026776/destiny-euro/italy-images/pexels-photo-2225442_xtkizo.jpg",
     introduction:
       "Imagine studying in a country where ancient history, rich culture, and modern innovation seamlessly blend together. Italy, renowned for its breathtaking landscapes, world-class cuisine, and iconic art, offers an unparalleled educational experience. From the bustling streets of Rome to the serene canals of Venice, Italy is a land of endless opportunities for international students. But why should you consider studying in Italy? This blog post delves into the unique benefits and opportunities that await you in this enchanting country.",
     sections: [

@@ -54,7 +54,7 @@ const servicesList = [
     introduction:
       "Choosing the right university and program is crucial for your academic success. Destiny Euro offers comprehensive support to help you find the best fit for your educational and career goals.",
     imageUrl:
-      "https://images.pexels.com/photos/4065158/pexels-photo-4065158.jpeg",
+      "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723044994/destiny-euro/pexels-photo-256455_nnh9tl.jpg",
     sections: [
       {
         title: "Why It Matters",
@@ -98,7 +98,7 @@ const servicesList = [
     "heading": "Hassle-Free Documentation Services",
     "subheading": "We Handle the Paperwork, So You Don’t Have To",
     "introduction": "Navigating the documentation process can be complex and time-consuming. At Destiny Euro, we simplify this process, ensuring all your paperwork is in order for a smooth transition.",
-    "imageUrl": "https://images.pexels.com/photos/4065158/pexels-photo-4065158.jpeg",
+    "imageUrl": "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723045172/destiny-euro/pexels-photo-8453934_uronft.jpg",
     "sections": [
       {
         "title": "The Importance of Proper Documentation",
@@ -150,7 +150,7 @@ const servicesList = [
     "heading": "Unlock Scholarship Opportunities",
     "subheading": "Maximize Your Chances of Securing Financial Aid",
     "introduction": "At Destiny Euro, we believe financial constraints should not hinder your academic dreams. Our scholarship guidance services help you identify and apply for scholarships to support your education abroad.",
-    "imageUrl": "https://images.pexels.com/photos/4065158/pexels-photo-4065158.jpeg",
+    "imageUrl": "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723045302/destiny-euro/merit3_re1kwi.jpg",
     "sections": [
       {
         "title": "Why Scholarships Matter",
@@ -202,7 +202,7 @@ const servicesList = [
     "heading": "Expert Visa Assistance",
     "subheading": "Navigating the Complex Visa Process with Ease",
     "introduction": "Securing a student visa is a critical step in your study abroad journey. Destiny Euro provides expert visa assistance to ensure a smooth and successful visa application process.",
-    "imageUrl": "https://images.pexels.com/photos/4065158/pexels-photo-4065158.jpeg",
+    "imageUrl": "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723045400/destiny-euro/1703757639666_xkxowp.jpg",
     "sections": [
       {
         "title": "The Importance of Visa Assistance",
@@ -254,7 +254,7 @@ const servicesList = [
     "heading": "Find Your Ideal Accommodation",
     "subheading": "Comfortable and Convenient Living Arrangements for Your Stay Abroad",
     "introduction": "Finding suitable accommodation can be challenging, especially in a new country. Destiny Euro offers comprehensive support to help you find comfortable and convenient living arrangements.",
-    "imageUrl": "https://images.pexels.com/photos/4065158/pexels-photo-4065158.jpeg",
+    "imageUrl": "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723045467/destiny-euro/135407_t39msy.jpg",
     "sections": [
       {
         "title": "Why Accommodation Matters",
