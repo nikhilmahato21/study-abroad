@@ -912,16 +912,16 @@ export const destinations = [
       {
         title: "Top Universities in Germany",
         points: [
-          "Technical University of Munich (TUM): Leading university for engineering and technology.",
-          "Ludwig Maximilian University of Munich (LMU): Known for humanities and social sciences.",
-          "Heidelberg University: Renowned for research and medical programs.",
-          "Humboldt University of Berlin: Strong focus on arts and humanities.",
-          "Free University of Berlin: Famous for social sciences and natural sciences.",
-          "Karlsruhe Institute of Technology (KIT): Top-ranked for engineering and natural sciences.",
-          "RWTH Aachen University: Leading technical university with a focus on engineering.",
-          "University of Mannheim: Known for its excellent business school.",
-          "University of Freiburg: Offers a wide range of programs with a strong research focus.",
-          "University of Stuttgart: Renowned for engineering and technology programs.",
+          "Technical University of Munich (TUM): Leading university for engineering and technology.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723021016/destiny-euro/germany-des_r1hm9q.jpg",
+          "Ludwig Maximilian University of Munich (LMU): Known for humanities and social sciences.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723041959/destiny-euro/germany-images/schmuckhof_hicdbj.jpg",
+          "Heidelberg University: Renowned for research and medical programs.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723042092/destiny-euro/germany-images/HU.jpg",
+          "Humboldt University of Berlin: Strong focus on arts and humanities.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723042193/destiny-euro/germany-images/533px-Berlin-Mitte_Bebelplatz1_05-2014_wcnaxf.jpg",
+          "Free University of Berlin: Famous for social sciences and natural sciences.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723042275/destiny-euro/germany-images/college_631_24-15_08_f1_j2ytvc.jpg",
+          "Karlsruhe Institute of Technology (KIT): Top-ranked for engineering and natural sciences.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723042560/destiny-euro/germany-images/karlsruhe%20institute%20of%20technology%20%28kit%29.png",
+          "RWTH Aachen University: Leading technical university with a focus on engineering.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723042673/destiny-euro/germany-images/RWTh.jpg",
+          "University of Mannheim: Known for its excellent business school.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723042794/destiny-euro/germany-images/UM.jpg",
+          "University of Freiburg: Offers a wide range of programs with a strong research focus.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723042939/destiny-euro/germany-images/Freiburg.jpg",
+          "University of Stuttgart: Renowned for engineering and technology programs.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723043039/destiny-euro/germany-images/Stuttgart_ny6nze.webp",
         ],
       },
 
@@ -963,7 +963,7 @@ export const destinations = [
       {
         title: "Exploring Germany",
         points: [
-          "Living in Germany:Discover the best of Germany with its diverse travel opportunities , roam through historic cities like Berlin, Munich, and Heidelberg, and immerse yourself in the natural beauty of the Black Forest, Bavarian Alps, and Rhine Valley",
+          "Living in germany :Discover the best of Germany with its diverse travel opportunities , roam through historic cities like Berlin, Munich, and Heidelberg, and immerse yourself in the natural beauty of the Black Forest, Bavarian Alps, and Rhine Valley",
         ],
         images: [
           {
@@ -1023,9 +1023,9 @@ export const destinations = [
       {
         title: "Top Universities in France",
         points: [
-          "Sorbonne University: A historic institution known for humanities.",
-          "École Normale Supérieure (ENS): A leading school for science and humanities.",
-          "HEC Paris: Top-ranked business school.",
+          "Sorbonne University: A historic institution known for humanities.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723021035/destiny-euro/france-des_uyyqmz.png",
+          "École Normale Supérieure (ENS): A leading school for science and humanities.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723043318/destiny-euro/france-images/courernest_1_0_gjenrj.jpg",
+          "HEC Paris: Top-ranked business school.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723043402/destiny-euro/france-images/hec_lqlntd.jpg",
         ],
       },
       {
@@ -1068,28 +1068,28 @@ export const destinations = [
       {
         title: "Exploring France",
         points: [
-          "Living in France: France offers a high quality of life, with vibrant cities like Paris, Lyon, and Toulouse.",
+          "Living in France:France provides a multitude of travel opportunities effortlessly explore iconic cities like Paris, Marseille, Lyon, and Bordeaux, visit world-renowned museums such as the Louvre and Musée d'Orsay, and immerse yourself in the natural beauty of the French Riviera, the Loire Valley, and the French Alps.",
         ],
         images: [
           {
-            title: "",
-            link: "",
+            title: "Paris",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723038960/destiny-euro/france-images/eiffel-tower-paris-france-tower-161853_jzemct.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "Louvre",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723039246/destiny-euro/france-images/pexels-photo-2739078_psrmj2.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "marseille",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723039379/destiny-euro/france-images/marseille-france-port_lddke1.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "French Riviera",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723039558/destiny-euro/france-images/35f165cb4f4cf7c072b46822136b54f4_m60xst.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "French Alps ",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723039721/destiny-euro/france-images/southern-french-alps_m8lbg9.jpg",
           },
         ],
       },
@@ -1128,9 +1128,9 @@ export const destinations = [
       {
         title: "Top Universities in UK",
         points: [
-          "University of Oxford: The oldest university in the English-speaking world.",
-          "University of Cambridge: Renowned for its research and academic excellence.",
-          "Imperial College London: Leading in science, engineering, and business.",
+          "University of Oxford: The oldest university in the English-speaking world.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723021021/destiny-euro/uk-des_hns0mr.jpg",
+          "University of Cambridge: Renowned for its research and academic excellence.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723043561/destiny-euro/uk-images/Banner-Image-The-University-of-Cambridge-1000x418_lv8k07.webp",
+          "Imperial College London: Leading in science, engineering, and business.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723043716/destiny-euro/uk-images/0160108_qt_sken_winter_012_185276_001--tojpeg_1504273907642_x1_knkvh2.jpg",
         ],
       },
       {
@@ -1173,28 +1173,28 @@ export const destinations = [
       {
         title: "Exploring UK",
         points: [
-          "Living in the UK: The UK offers a diverse cultural experience, with a blend of historic and modern attractions.",
+          "The UK offers a wealth of travel opportunities: Easily explore iconic cities like London, Edinburgh, Manchester, and Bath, visit famous museums such as the British Museum and the National Gallery, and immerse yourself in the natural beauty of the Lake District, the Scottish Highlands, and the Cotswolds.",
         ],
         images: [
           {
-            title: "",
-            link: "",
+            title: "London",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723040694/destiny-euro/uk-images/pexels-photo-220887_v01h0j.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "British Museums",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723040915/destiny-euro/uk-images/british-museum_museum-frontage-image-courtesy-of-the-british-museum_f0b0a5a3c53f8fc1564868c561bd167c_v5lrha.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "Manchester",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723041024/destiny-euro/uk-images/1200px-Manchester_Town_Hall_from_Lloyd_St_z1hray.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "Lake District",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723041129/destiny-euro/uk-images/Lake-District-Cottages-Fantastic-Facts-About-the-Lake-District-Blog-Image_lbae6a.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "cotswolds",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723041242/destiny-euro/uk-images/gettyimages-1280782145-1_ns17pd.jpg",
           },
         ],
       },
@@ -1233,9 +1233,9 @@ export const destinations = [
       {
         title: "Top Universities in Poland",
         points: [
-          "University of Warsaw: Leading in humanities and social sciences.",
-          "Jagiellonian University: One of the oldest universities in Europe.",
-          "Warsaw University of Technology: Known for engineering and technology.",
+          "University of Warsaw: Leading in humanities and social sciences.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723044054/destiny-euro/poland-images/Dawna-Biblioteka_djmhjt.jpg",
+          "Jagiellonian University: One of the oldest universities in Europe.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723043861/destiny-euro/poland-images/713c2-jagiellonian-university_xw53gu.png",
+          "Warsaw University of Technology: Known for engineering and technology.#https://res.cloudinary.com/dynbpb9u0/image/upload/v1723043888/destiny-euro/poland-images/55e088f9-d932-410c-884f-3d7ebff2d305_rw_1920_twkidz.jpg",
         ],
       },
       {
@@ -1278,33 +1278,33 @@ export const destinations = [
       {
         title: "Exploring Poland",
         points: [
-          "Living in Poland: Affordable living costs, diverse cultural experiences, and a welcoming environment for international students.",
+          "Poland provides diverse travel opportunities: explore historic cities like Warsaw, Krakow, Gdańsk, and Wrocław, visit notable museums such as the Warsaw Uprising Museum and the Auschwitz-Birkenau Memorial and Museum, and experience the natural beauty of the Tatra Mountains, Białowieża Forest, and the Masurian Lake District.",
         ],
         images: [
           {
-            title: "",
-            link: "",
+            title: "Warsaw",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723039956/destiny-euro/poland-images/panorama-warszawy-z-widok-towers-fot-filip-kwiatkowski_bzat17.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "Masurian Lake District",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723040174/destiny-euro/poland-images/2507-Jezioro-Przystan_fvc1ok.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "Warsaw Uprising Museum",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723040235/destiny-euro/poland-images/640px-Muzeum_Powstania_Warszawskiego_2023_btwfrn.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "Białowieża Fores",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723040369/destiny-euro/poland-images/Bialowieza-Forest_3big_stock_qdnsda.jpg",
           },
           {
-            title: "",
-            link: "",
+            title: "Tatra Mountains",
+            link: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723040074/destiny-euro/poland-images/f5de6dfd-c3bc-4287-96a6-2417e6aa9945-03-tatralake_albertnowicki.jpg_chteio.jpg",
           },
         ],
       },
     ],
     call_to_action:
-      "Take the first step towards an extraordinary education in Germany. Apply now and let Destiny Euro pave the way for your success!",
+      "Poland provides diverse travel opportunities: explore historic cities like Warsaw, Krakow, Gdańsk, and Wrocław, visit notable museums such as the Warsaw Uprising Museum and the Auschwitz-Birkenau Memorial and Museum, and experience the natural beauty of the Tatra Mountains, Białowieża Forest, and the Masurian Lake District.",
   },
 ];

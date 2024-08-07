@@ -54,7 +54,7 @@ const ExploreCountry = ({explore}) => {
                   className="absolute inset-0 h-full w-full   object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl font-poppins">
+                <h3 className="z-10 text-xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-xl font-poppins">
                   {explore.images[2].title}
                 </h3>
               </a>
@@ -69,7 +69,7 @@ const ExploreCountry = ({explore}) => {
                   className="absolute inset-0 h-full w-full   object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl font-poppins">
+                <h3 className="z-10 text-xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-xl font-poppins">
                   {explore.images[3].title}
                 </h3>
               </a>
