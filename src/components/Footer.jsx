@@ -5,6 +5,8 @@ import {
   FaInstagram,
   FaEnvelope,
 } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,10 +17,9 @@ const Footer = () => {
           <div className="flex flex-col items-center lg:items-start mb-6 lg:mb-0">
             <h1 className="text-3xl font-bold mb-4">Destiny Euro</h1>
             <div className="flex space-x-4 text-gray-600">
-              <FaFacebookF className="h-6 w-6" />
-              <FaTwitter className="h-6 w-6" />
-              <FaInstagram className="h-6 w-6" />
-              <FaEnvelope className="h-6 w-6" />
+              <Link to={"https://www.instagram.com/destiny_euro/"}><FaInstagram className="h-6 w-6" /></Link>
+              <Link to={"https://www.facebook.com/profile.php?id=61563731465980"}><FaFacebookF className="h-6 w-6" /></Link>
+              <Link to={"https://www.youtube.com/@DestinyEuro"}><FaYoutube className="h-6 w-6" /></Link>
             </div>
           </div>
           {/* Support Links */}
@@ -26,7 +27,7 @@ const Footer = () => {
             <h2 className="text-xl  text-blue-600 mb-4 font-poppins font-light">Support</h2>
             <ul className="text-gray-600 font-poppins font-medium">
               <li className="mb-2">
-                <a href="#">Contact Us</a>
+                <Link to="/contact">Contact Us</Link>
               </li>
               <li className="mb-2">
                 <a href="#">FAQ</a>
@@ -41,13 +42,13 @@ const Footer = () => {
             <h2 className="text-xl  text-blue-600 mb-4 font-poppins font-light ">Company</h2>
             <ul className="text-gray-600 font-poppins font-medium">
               <li className="mb-2">
-                <a href="#">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li className="mb-2">
-                <a href="#">Career</a>
+                <Link to="/services">services</Link>
               </li>
               <li>
-                <a href="#">Newsrooms</a>
+                <Link to="/destinations">destinations</Link>
               </li>
             </ul>
           </div>
