@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
       <div className=" flex  items-center justify-center  relative  scale-75 md:scale-100 pb-12 lg:pb-0 ">
         <img
-          src={hero}
+          src={"https://res.cloudinary.com/dynbpb9u0/image/upload/v1723131275/destiny-euro/Landing_page_pic1-removebg-preview_v9dqzt.png"}
           alt="Centered Image"
           className="center-img absolute z-10 h-64 w-64 rounded-full  "
         />

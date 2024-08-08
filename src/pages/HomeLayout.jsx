@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import NavbarNew from "../components/NavbarNew";
 import Footer from "../components/Footer";
+import CallButton from "../components/CallButton";
 
 const HomeLayout = () => {
   return (
@@ -10,6 +11,7 @@ const HomeLayout = () => {
       <section className="">
         <Outlet />
         <Footer />
+        <CallButton />
       </section>
     </>
   );

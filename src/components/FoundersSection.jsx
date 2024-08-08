@@ -10,7 +10,7 @@ const FoundersSection = () => {
         <div className="w-full md:w-1/3 p-4 rounded-xl h-[19.2rem] flex justify-center ">
           <div className="w-full h-full relative">
             <img
-              src="https://res.cloudinary.com/dynbpb9u0/image/upload/v1721840020/IMG_4361_r5lajj.jpg"
+              src="https://res.cloudinary.com/dynbpb9u0/image/upload/v1723130813/destiny-euro/IMG_4361_r5lajj_1_tkhu2z.jpg"
               alt="Mrinal Dawn"
               className="rounded-lg  object-cover object-center w-full h-full"
             />
@@ -38,11 +38,11 @@ const FoundersSection = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row-reverse items-center mb-12 gap-3">
-        <div className="w-full md:w-1/3 p-4 rounded-xl  h-[19.2rem] flex justify-center ">
-          <div className="w-full h-full relative">
+        <div className="w-full md:w-1/3 p-4 rounded-xl  lg:h-[19.2rem] flex justify-center ">
+          <div className="w-full h-full ">
             <img
-              src="https://res.cloudinary.com/dynbpb9u0/image/upload/v1721840020/IMG_4363_fbe5nd.jpg"
-              alt="Mrinal Dawn"
+              src="https://res.cloudinary.com/dynbpb9u0/image/upload/v1723130814/destiny-euro/IMG_4363_fbe5nd_1_yurnli.jpg"
+              alt=" Deepshika Thakur"
               className="rounded-lg  object-cover object-top w-full h-full"
             />
           </div>

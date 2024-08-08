@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import Blog from "./pages/Blog";
 import BlogDetails from "./pages/BlogDetails";
+import CallButton from "./components/CallButton";
 
 const router = createBrowserRouter([
   {
@@ -53,7 +54,12 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router}></RouterProvider>;
+  return (
+    <RouterProvider router={router}>
+      {" "}
+      
+    </RouterProvider>
+  );
 };
 
 export default App;
