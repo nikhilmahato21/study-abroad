@@ -5,46 +5,46 @@ import "slick-carousel/slick/slick-theme.css";
 
 const testimonials = [
   {
-    image: "https://via.placeholder.com/50",
+    image: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723717451/destiny-euro/Tejas_2_i8qkwb.png",
     name: "Tejas Krishnamurthy",
     university: "Sapienza University of Rome",
     quote:
-      "Studying at Sapienza University has been an incredible journey. The transition from Bangalore to Rome was seamless, thanks to the rich academic environment and supportive faculty. Now, as a PhD candidate, I’m exploring new horizons in research with confidence. Sapienza has truly been a catalyst for my academic growth.",
+      "Studying at Sapienza University was a game-changer. The PhD research opportunities have been incredible!",
   },
   {
-    image: "https://via.placeholder.com/50",
-    name: "Jack Jae",
-    university: "University of Essex",
+    image: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723717452/destiny-euro/Keerthana_1_ydyx4e.png",
+    name: "Keerthana Paruchuri",
+    university: "University of Rome Tor Vergata",
     quote:
-      "Lorem ipsum dolor sit amet consectetur. Condimentum amet eget nibh sagittis lacus est risus aliquet proin.",
+      "My time at University of Rome Tor Vergata for engineering was excellent. The faculty and resources were top-notch!",
   },
   {
-    image: "https://via.placeholder.com/50",
-    name: "Denis Slavasko",
-    university: "University of Essex",
+    image: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723717452/destiny-euro/Christopher_1_nxoegx.png",
+    name: "Ronal Christopher",
+    university: "University of Bologna",
     quote:
-      "Lorem ipsum dolor sit amet consectetur. Condimentum amet eget nibh sagittis lacus est risus aliquet proin.",
+      "Graduating with a Master’s in Finance from the University of Bologna was a highlight. The program provided exceptional insights and connections!",
   },
   {
-    image: "https://via.placeholder.com/50",
-    name: "Emily Dee",
-    university: "University of Essex",
+    image: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723717449/destiny-euro/Krishna_iy9koe.png",
+    name: "Krishna Elango",
+    university: "University of Rome Tor Vergata",
     quote:
-      "Lorem ipsum dolor sit amet consectetur. Condimentum amet eget nibh sagittis lacus est risus aliquet proin.",
+      "Pursuing my Masters in Mechatronics at University of Rome Tor Vergata has been a fantastic experience. Great learning environment!",
   },
   {
-    image: "https://via.placeholder.com/50",
-    name: "Jack Jae",
-    university: "University of Essex",
+    image: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723717454/destiny-euro/Eva_1_eswrbt.png",
+    name: "Evangelina Pagare",
+    university: "Sapienza University of Rome",
     quote:
-      "Lorem ipsum dolor sit amet consectetur. Condimentum amet eget nibh sagittis lacus est risus aliquet proin.",
+      "Sapienza’s Classics program is truly enriching. I’m thoroughly enjoying my studies and the vibrant campus life!",
   },
   {
-    image: "https://via.placeholder.com/50",
-    name: "Denis Slavasko",
-    university: "University of Essex",
+    image: "https://res.cloudinary.com/dynbpb9u0/image/upload/v1723717445/destiny-euro/Shibin_1_qkkerf.png",
+    name: "Shibin Shaji",
+    university: "University of Cassino",
     quote:
-      "Lorem ipsum dolor sit amet consectetur. Condimentum amet eget nibh sagittis lacus est risus aliquet proin.",
+      "The University of Cassino has offered me a solid education in Economics and Management. The experience has been very rewarding!",
   },
 ];
 
@@ -52,12 +52,12 @@ const Testimonial = ({ name, university, quote, image }) => (
   <div className="flex flex-col border rounded-lg p-4 pt-8 gap-3 bg-white h-80  shadow-lg">
     <div className="flex items-center  mb-4">
       <div className="avatar">
-        <div className="w-12 h-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+        <div className="w-12 h-12 rounded-full ring ring-flyBlue ring-offset-base-300 ring-offset-2">
           <img src={image} alt={name} />
         </div>
       </div>
     </div>
-    <p className="text-xs font-bold   text-gray-500  md:leading-5 font-poppins">{quote}</p>
+    <p className="text-md  py-3 md:py-0 font-bold   text-gray-500  leading-5 font-poppins">{quote}</p>
     <div className=" border-l-2 border-flyBlue pl-3">
       <h3 className=" font-bold font-poppins text-flyBlue">{name}</h3>
       <p className="text-sm text-gray-500 font-poppins">{university}</p>
@@ -95,7 +95,7 @@ const settings = {
 const Testimonials = () => (
   <section className=" px-8  py-16 lg:px-40 bg-baseGrey">
     <h2 className=" pl-5 text-2xl md:text-3xl font-bold text-left mb-8 font-poppins">
-      What Our <span className="text-flyBlue">Students</span> Say
+      University Reviews By <span className="text-flyBlue">Students</span>
     </h2>
     <div className=" py-7">
       <Slider {...settings}>

@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 const NavbarNew = () => {
   return (
     <nav className="  h-16  bg-baseGrey ">
-      <div className="container  mx-auto px-3   flex items-center   justify-between">
+      <div className="w-full px-3 md:px-10  mx-auto   py-1   flex items-center   justify-between">
         {/* DROPDOWN */}
         <div className="dropdown lg:hidden">
           <label tabIndex={0} className="btn btn-ghost  ">
@@ -18,7 +18,7 @@ const NavbarNew = () => {
           </ul>
         </div>
         {/* LOGO */}
-        <div className="flex  h-16  w-44 ">
+        <div className="flex h-16 w-44  ">
           <img
             src="https://res.cloudinary.com/dynbpb9u0/image/upload/v1723715568/destiny-euro/Destiny_Euro_logo_new_smplgg.png"
             alt=""

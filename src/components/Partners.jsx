@@ -30,8 +30,8 @@ const Partners = () => {
       </div>
       <div className="w-full md:w-1/2 p-4">
         <h2 className="text-4xl font-bold mb-4 font-poppins ">
-          Partnering with <span className="text-flyBlue">Universities</span>{" "}
-          Across the Globe
+          Connecting You To Top <span className="text-flyBlue">Universities</span>{" "}
+          Globaly
         </h2>
         <p className="text-gray-600 mb-6 font-poppins">
           Join us on our journey as we build a global network of students and
@@ -44,7 +44,7 @@ const Partners = () => {
               100+{" "}
             </p>
             <p className="text-gray-600 font-poppins">
-              Partner Universities in the Pipeline
+              Prestigious Universities For Exploration
             </p>
           </div>
           <div>
