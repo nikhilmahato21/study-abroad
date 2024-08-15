@@ -6,6 +6,7 @@ import Services from "../components/Services";
 import Process from "../components/Process";
 import Testimonial from "../components/Testimonial";
 import Partners from "../components/Partners";
+import CallToAction from "../components/CallToAction";
 
 const Landing = () => {
   return (
@@ -16,6 +17,7 @@ const Landing = () => {
       <Process />
       <Testimonial />
       <Partners/>
+      <CallToAction/>
     </div>
   );
 };

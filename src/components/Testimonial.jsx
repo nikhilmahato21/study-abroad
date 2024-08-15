@@ -6,10 +6,10 @@ import "slick-carousel/slick/slick-theme.css";
 const testimonials = [
   {
     image: "https://via.placeholder.com/50",
-    name: "Emily Dee",
-    university: "University of Essex",
+    name: "Tejas Krishnamurthy",
+    university: "Sapienza University of Rome",
     quote:
-      "Lorem ipsum dolor sit amet consectetur. Condimentum amet eget nibh sagittis lacus est risus aliquet proin.",
+      "Studying at Sapienza University has been an incredible journey. The transition from Bangalore to Rome was seamless, thanks to the rich academic environment and supportive faculty. Now, as a PhD candidate, I’m exploring new horizons in research with confidence. Sapienza has truly been a catalyst for my academic growth.",
   },
   {
     image: "https://via.placeholder.com/50",
@@ -57,7 +57,7 @@ const Testimonial = ({ name, university, quote, image }) => (
         </div>
       </div>
     </div>
-    <p className="text-lg font-medium text-graphite font-poppins">{quote}</p>
+    <p className="text-xs font-bold   text-gray-500  md:leading-5 font-poppins">{quote}</p>
     <div className=" border-l-2 border-flyBlue pl-3">
       <h3 className=" font-bold font-poppins text-flyBlue">{name}</h3>
       <p className="text-sm text-gray-500 font-poppins">{university}</p>
@@ -95,7 +95,7 @@ const settings = {
 const Testimonials = () => (
   <section className=" px-8  py-16 lg:px-40 bg-baseGrey">
     <h2 className=" pl-5 text-2xl md:text-3xl font-bold text-left mb-8 font-poppins">
-      What Our <span className="text-flyBlue">Students</span>  Say
+      What Our <span className="text-flyBlue">Students</span> Say
     </h2>
     <div className=" py-7">
       <Slider {...settings}>
