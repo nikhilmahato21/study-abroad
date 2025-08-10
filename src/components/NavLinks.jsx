@@ -21,15 +21,24 @@ const NavLinks = () => {
         return (
           <li key={id} className="">
             <NavLink
-              className={`nav-link capitalize font-poppins tracking-wider text-graphite hover:font-semibold hover:text-base transition-all duration-300 px-2 ${
-                isActive ? "font-semibold" : ""
-              }`}
+              className={`nav-link capitalize font-poppins tracking-wider text-graphite transition-all duration-300 px-2 flex items-center gap-1 relative group`}
               to={url}
             >
-              {text}
-              {isActive && (
-                <PiFlyingSaucer className="text-stone-500 hidden lg:block " />
-              )}
+              {/* Container with fixed width based on bold text */}
+              <span className="relative inline-block">
+                {/* Invisible bold text to reserve space */}
+                <span className="invisible font-semibold" aria-hidden="true">
+                  {text}
+                </span>
+                {/* Visible text positioned absolutely */}
+                <span className="absolute inset-0 group-hover:font-semibold transition-all duration-100">
+                  {text}
+                </span>
+              </span>
+              <PiFlyingSaucer
+                className={`text-stone-500 lg:block transition-all duration-300 ease-in-out 
+                  ${isActive ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-2 pointer-events-none"}`}
+              />
             </NavLink>
           </li>
         );

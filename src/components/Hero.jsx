@@ -21,11 +21,11 @@ const Hero = () => {
           </p>
         </div>
         <div className="mt-8 flex gap-2">
-          <Link to="/" className="btn bg-flyBlue text-white">
-            Explore Programs
+          <Link to="/destinations" className="btn bg-flyBlue px-10 text-white">
+            Explore
           </Link>
-          <Link to="/" className="btn border-2 border-flyBlue">
-            Explore Programs
+          <Link to="https://forms.gle/rE5e8huEcqJUyH9L8" className="btn border-2 px-10 border-flyBlue">
+            Register
           </Link>
         </div>
       </div>

@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         {/* navbar end */}
         <div className="hidden lg:flex bg-green-400 flex-grow justify-end">
-          <ul className="flex gap-6 text-sm font-normal font-poppins tracking-wide hover:font-semibold">
+          <ul className="flex gap-6 text-sm font-normal font-poppins tracking-wide">
             <NavLinks />
           </ul>
         </div>
